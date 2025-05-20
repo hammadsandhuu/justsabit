@@ -1,108 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- Mirrored from wealcoder.com/dev/html/axtra/blog-details-dark.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 May 2025 20:05:14 GMT -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Axtra HTML5 Template" />
 
+    <title>Blog Details - Axtra</title>
 
-<!-- Mirrored from wealcoder.com/dev/html/axtra/blog-details-dark.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 May 2025 20:05:14 GMT -->
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Axtra HTML5 Template">
+    <!-- Fav Icon -->
+    <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png" />
 
-  <title>Blog Details - Axtra</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fav Icon -->
-  <link rel="icon" type="image/x-icon" href="assets/imgs/logo/favicon.png">
+    <!-- All CSS files -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/progressbar.css" />
+    <link rel="stylesheet" href="assets/css/meanmenu.min.css" />
+    <link rel="stylesheet" href="assets/css/master.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com/">
-  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+  <body class="dark">
+    <!-- Cursor Animation -->
+    <div class="cursor1"></div>
+    <div class="cursor2"></div>
 
-  <!-- All CSS files -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/all.min.css">
-  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-  <link rel="stylesheet" href="assets/css/progressbar.css">
-  <link rel="stylesheet" href="assets/css/meanmenu.min.css">
-  <link rel="stylesheet" href="assets/css/master.css">
-  <link rel="stylesheet" href="style.css">
-</head>
-
-
-<body class="dark">
-
-  <!-- Cursor Animation -->
-  <div class="cursor1"></div>
-  <div class="cursor2"></div>
-
-
-  <!-- Preloader -->
-  <div class="preloader">
-    <div class="loading">
-      <div class="bar bar1"></div>
-      <div class="bar bar2"></div>
-      <div class="bar bar3"></div>
-      <div class="bar bar4"></div>
-      <div class="bar bar5"></div>
-      <div class="bar bar6"></div>
-      <div class="bar bar7"></div>
-      <div class="bar bar8"></div>
-    </div>
-  </div>
-
-
-  <!-- Switcher Area Start -->
-  <div class="switcher__area">
-    <div class="switcher__icon">
-      <button id="switcher_open"><i class="fa-solid fa-gear"></i></button>
-      <button id="switcher_close"><i class="fa-solid fa-xmark"></i></button>
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="loading">
+        <div class="bar bar1"></div>
+        <div class="bar bar2"></div>
+        <div class="bar bar3"></div>
+        <div class="bar bar4"></div>
+        <div class="bar bar5"></div>
+        <div class="bar bar6"></div>
+        <div class="bar bar7"></div>
+        <div class="bar bar8"></div>
+      </div>
     </div>
 
-    <div class="switcher__items">
-      <div class="switcher__item">
-        <div class="switch__title-wrap">
-          <h2 class="switcher__title">Cursor</h2>
-        </div>
-        <div class="switcher__btn">
-          <select name="cursor-style" id="cursor_style">
-            <option value="1">default</option>
-            <option selected value="2">animated</option>
-          </select>
-        </div>
+    <!-- Switcher Area Start -->
+    <div class="switcher__area">
+      <div class="switcher__icon">
+        <button id="switcher_open"><i class="fa-solid fa-gear"></i></button>
+        <button id="switcher_close"><i class="fa-solid fa-xmark"></i></button>
       </div>
 
-      <div class="switcher__item">
-        <div class="switch__title-wrap">
-          <h2 class="switcher__title">mode</h2>
+      <div class="switcher__items">
+        <div class="switcher__item">
+          <div class="switch__title-wrap">
+            <h2 class="switcher__title">Cursor</h2>
+          </div>
+          <div class="switcher__btn">
+            <select name="cursor-style" id="cursor_style">
+              <option value="1">default</option>
+              <option selected value="2">animated</option>
+            </select>
+          </div>
         </div>
-        <div class="switcher__btn mode-type wc-col-2">
-          <button data-mode="light">light</button>
-          <button class="active" data-mode="dark">dark</button>
-        </div>
-      </div>
 
-      <div class="switcher__item">
-        <div class="switch__title-wrap">
-          <h2 class="switcher__title">Language Support</h2>
+        <div class="switcher__item">
+          <div class="switch__title-wrap">
+            <h2 class="switcher__title">mode</h2>
+          </div>
+          <div class="switcher__btn mode-type wc-col-2">
+            <button data-mode="light">light</button>
+            <button class="active" data-mode="dark">dark</button>
+          </div>
         </div>
-        <div class="switcher__btn lang_dir wc-col-2">
-          <button class="active" data-mode="ltr">LTR</button>
-          <button data-mode="rtl">RTL</button>
+
+        <div class="switcher__item">
+          <div class="switch__title-wrap">
+            <h2 class="switcher__title">Language Support</h2>
+          </div>
+          <div class="switcher__btn lang_dir wc-col-2">
+            <button class="active" data-mode="ltr">LTR</button>
+            <button data-mode="rtl">RTL</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Switcher Area End -->
+    <!-- Switcher Area End -->
 
+    <!-- Scroll Smoother -->
+    <div class="has-smooth" id="has_smooth"></div>
 
-
-  <!-- Scroll Smoother -->
-  <div class="has-smooth" id="has_smooth"></div>
-
-
-  <!-- Go Top Button -->
-  <button id="scroll_top" class="scroll-top"><i class="fa-solid fa-arrow-up"></i></button>
+    <!-- Go Top Button -->
+    <button id="scroll_top" class="scroll-top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
 
     <!-- Header area start -->
     <header class="header__area">
@@ -145,12 +141,13 @@
           <div class="offcanvas__social">
             <h3 class="social-title">Follow Us</h3>
             <ul>
-              <li><a href="#">Dribbble</a></li>
-              <li><a href="#">Behance</a></li>
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">YouTube</a></li>
+              <li>
+                <a href="https://www.instagram.com/justsabit">Instagram</a>
+              </li>
+              <li><a href="facebook.com/itsSABIT">Facebook</a></li>
+              <li><a href="https://x.com/justsabit?s=11">Twitter</a></li>
+              <li><a href="https://www.youtube.com/@justsabit">YouTube</a></li>
+              <li><a href="https://www.tiktok.com/@justsabit_">TikTok</a></li>
             </ul>
           </div>
           <div class="offcanvas__links">
@@ -158,6 +155,7 @@
               <li><a href="service.html">Services</a></li>
               <li><a href="blog.html">blog</a></li>
               <li><a href="contact.html">contact</a></li>
+              <li><a href="portfolio.html">Projects</a></li>
             </ul>
           </div>
         </div>
@@ -168,9 +166,9 @@
                 <li><a href="/">home</a></li>
                 <li><a href="about.html">about</a></li>
                 <li><a href="service.html">services</a></li>
-                <li><a href="portfolio.html">Projects</a></li>
                 <li><a href="blog.html">blog</a></li>
                 <li><a href="contact.html">Get Quote</a></li>
+                <li><a href="contact.html">Place your shipment</a></li>
               </ul>
             </nav>
           </div>
@@ -204,282 +202,400 @@
     </div>
     <!-- Offcanvas area end -->
 
-  <div id="smooth-wrapper">
-    <div id="smooth-content">
-      <main>
-
-        <!-- Blog detail start -->
-        <section class="blog__detail">
-          <div class="container g-0 line pt-140">
-            <span class="line-3"></span>
-            <div class="row">
-              <div class="col-xxl-8 col-xl-10 offset-xxl-2 offset-xl-1">
-                <div class="blog__detail-top">
-                  <h2 class="blog__detail-date animation__word_come">Design, Marketing <span>25 Jan 2019</span></h2>
-                  <h3 class="blog__detail-title animation__word_come">Donate your design for newest designers to try
-                    better
-                  </h3>
-                  <div class="blog__detail-metalist">
-                    <div class="blog__detail-meta">
-                      <img src="assets/imgs/blog/detail/author.png" alt="Author Picture">
-                      <p>Writen by <span>Codexpand</span></p>
-                    </div>
-                    <div class="blog__detail-meta">
-                      <p>Viewed <span>3 min read</span></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xxl-12">
-                <div class="blog__detail-thumb">
-                  <img src="assets/imgs/blog/detail/1.jpg" alt="Blog Thumbnail" data-speed="0.5">
-                </div>
-              </div>
-              <div class="col-xxl-8 col-xl-10 offset-xxl-2 offset-xl-1">
-                <div class="blog__detail-content">
-                  <p>We love to bring designs to life as a developer, and I aim to do this using whatever front end
-                    tools are necessary. My preferred tools are more modern javascript libraries like React.js but I
-                    like to use whatever is best for the websites needs. There are several reasons why a business would
-                    consider a rebrand and it doesn’t necessarily mean the business has been unsuccessful. </p>
-                  <p>But in order that you may see whence all this born error of those who accuse pleasure and praise
-                    pain, I will open the whole matter, and explain the very things which were said by that discoverer
-                    of truth and, as it were, the architect of a happy life.</p>
-                  <img src="assets/imgs/blog/detail/2.jpg" alt="Blog Image">
-                  <h2>JavaScript</h2>
-                  <p>We love to bring designs to life as a developer, and I aim to do this using whatever front end
-                    tools are necessary. My preferred tools are more modern javascript libraries like React.js but I
-                    like to use whatever is best for the websites needs. There are several reasons why a business would
-                    consider a rebrand and it doesn’t necessarily mean the business has been unsuccessful.</p>
-                  <h2>Fremework</h2>
-                  <p>Always ready to push the boundaries, especially when it comes to our own platform, Our analytical
-                    eye to create a site that was visually engaging and also optimised for maximum performance. It also
-                    perfectly reflects the journey to help it tell a story to increase its understanding and drive
-                    action. To create a site that was visually engaging for maximum performance.</p>
-                  <ul>
-                    <li>Brand Development</li>
-                    <li>UX/UI Design</li>
-                    <li>Front-end Development</li>
-                    <li>Copywriting</li>
-                    <li>Shopify Development</li>
-                  </ul>
-                  <h2>Visual Studio</h2>
-                  <p>Just like other pseudo-elements and pseudo-class selectors, :not() can be chained with other
-                    pseudo-classes and pseudo-elements. For example, the following will add a “New!” word to list items
-                    that do not have a .old class name, using the ::after pseudo-element:</p>
-                  <img src="assets/imgs/blog/detail/3.jpg" alt="Code">
-                </div>
-                <div class="blog__detail-tags">
-                  <p class="sub-title-anim">tags: <a href="category.html">design</a>, <a href="category.html">figma</a>,
-                    <a href="category.html">update</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- Blog detail end -->
-
-
-        <!-- Related blog start -->
-        <section class="blog__related blog__animation">
-          <div class="container g-0 line pt-130 pb-140">
-            <span class="line-3"></span>
-            <div class="row">
-              <div class="col-xxl-12">
-                <div class="sec-title-wrapper">
-                  <h2 class="sec-title title-anim">Related Aricles</h2>
-                </div>
-              </div>
-            </div>
-
-            <div class="row reset-grid">
-              <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                <article class="blog__item">
-                  <div class="blog__img-wrapper">
-                    <a href="blog-details.html">
-                      <div class="img-box">
-                        <img class="image-box__item" src="assets/imgs/blog/1.jpg" alt="Blog Thumbnail">
-                        <img class="image-box__item" src="assets/imgs/blog/1.jpg" alt="BLog Thumbnail">
+    <div id="smooth-wrapper">
+      <div id="smooth-content">
+        <main>
+          <!-- Blog detail start -->
+          <section class="blog__detail">
+            <div class="container g-0 line pt-140">
+              <span class="line-3"></span>
+              <div class="row">
+                <div class="col-xxl-8 col-xl-10 offset-xxl-2 offset-xl-1">
+                  <div class="blog__detail-top">
+                    <h2 class="blog__detail-date animation__word_come">
+                      Logistics, Shipping <span>20 May 2025</span>
+                    </h2>
+                    <h3 class="blog__detail-title animation__word_come">
+                      FOB, EXW, or Door-to-Door: Which Shipping Option Is Right
+                      for You?
+                    </h3>
+                    <div class="blog__detail-metalist">
+                      <div class="blog__detail-meta">
+                        <img
+                          src="assets/imgs/blog/detail/author.png"
+                          alt="Author Picture"
+                        />
+                        <p>Written by <span>SABIT Team</span></p>
                       </div>
-                    </a>
-                  </div>
-                  <h4 class="blog__meta sub-title-anim"><a href="category.html">UI Design</a> . 02 May 2019</h4>
-                  <h5><a href="blog-details.html" class="blog__title sub-title-anim">Ways of lying to yourself about
-                      your new
-                      relationship.</a></h5>
-                  <a href="blog-details.html" class="blog__btn">Read More <span><i
-                        class="fa-solid fa-arrow-right"></i></span></a>
-                </article>
-              </div>
-
-              <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                <article class="blog__item" data-speed="auto">
-                  <div class="blog__img-wrapper">
-                    <a href="blog-details.html">
-                      <div class="img-box">
-                        <img class="image-box__item" src="assets/imgs/blog/2.jpg" alt="Blog Thumbnail">
-                        <img class="image-box__item" src="assets/imgs/blog/2.jpg" alt="BLog Thumbnail">
+                      <div class="blog__detail-meta">
+                        <p>Viewed <span>4 min read</span></p>
                       </div>
-                    </a>
-                  </div>
-                  <h4 class="blog__meta sub-title-anim"><a href="category.html">UI Design</a> . 02 May 2019</h4>
-                  <h5><a href="blog-details.html" class="blog__title sub-title-anim">How to manage a talented and
-                      successful de sign
-                      team</a></h5>
-                  <a href="blog-details.html" class="blog__btn">Read More <span><i
-                        class="fa-solid fa-arrow-right"></i></span></a>
-                </article>
-              </div>
-
-              <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-                <article class="blog__item" data-speed="auto">
-                  <div class="blog__img-wrapper">
-                    <a href="blog-details.html">
-                      <div class="img-box">
-                        <img class="image-box__item" src="assets/imgs/blog/3.jpg" alt="Blog Thumbnail">
-                        <img class="image-box__item" src="assets/imgs/blog/3.jpg" alt="BLog Thumbnail">
-                      </div>
-                    </a>
-                  </div>
-                  <h4 class="blog__meta sub-title-anim"><a href="category.html">UI Design</a> . 02 May 2019</h4>
-                  <h5><a href="blog-details.html" class="blog__title sub-title-anim">How to bring fold to your
-                      startup
-                      company with
-                      Axtra</a></h5>
-                  <a href="blog-details.html" class="blog__btn">Read More <span><i
-                        class="fa-solid fa-arrow-right"></i></span></a>
-                </article>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- Related blog end -->
-
-
-        <!-- CTA area start -->
-        <section class="cta__area">
-          <div class="container line pb-110">
-            <div class="line-3"></div>
-            <div class="row">
-              <div class="col-xxl-12">
-                <div class="cta__content">
-                  <p class="cta__sub-title">Work with us</p>
-                  <h2 class="cta__title title-anim">We would love to hear more about your project</h2>
-                  <div class="btn_wrapper">
-                    <a href="contact.html" class="wc-btn-primary btn-item btn-hover"><span></span>Let’s talk us <i
-                        class="fa-solid fa-arrow-right"></i></a>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- CTA area end -->
-
-      </main>
-
-
-
-      <!-- Footer area start -->
-      <footer class="footer__area">
-        <div class="footer__top">
-          <div class="container footer-line"></div>
-          <img src="assets/imgs/thumb/footer.jpg" alt="Footer Image" data-speed="0.5">
-        </div>
-
-        <div class="footer__btm">
-          <div class="container">
-            <div class="row footer__row">
-              <div class="col-xxl-12">
-                <div class="footer__inner">
-                  <div class="footer__widget">
-                    <img class="footer__logo" src="assets/imgs/logo1.png" alt="Footer Logo">
-                    <p>When do they work well, and when do they on us and finally, when do we actually need how can we
-                      avoid
-                      them.</p>
-                    <ul class="footer__social">
-                      <li><a href="#"><span><i class="fa-brands fa-facebook-f"></i></span></a></li>
-                      <li><a href="#"><span><i class="fa-brands fa-twitter"></i></span></a></li>
-                      <li><a href="#"><span><i class="fa-brands fa-instagram"></i></span></a></li>
-                      <li><a href="#"><span><i class="fa-brands fa-linkedin"></i></span></a></li>
-                    </ul>
+                <div class="col-xxl-12">
+                  <div class="blog__detail-thumb">
+                    <img
+                      src="assets/imgs/blog/detail/shipping.jpg"
+                      alt="Shipping Options"
+                      data-speed="0.5"
+                    />
                   </div>
-
-                  <div class="footer__widget-2">
-                    <h2 class="footer__widget-title">Information</h2>
-                    <ul class="footer__link">
-                      <li><a href="about.html">About Company</a></li>
-                      <li><a href="portfolio.html">Case Study</a></li>
-                      <li><a href="career.html">Career</a></li>
-                      <li><a href="blog.html">blog</a></li>
-                      <li><a href="contact.html">contact</a></li>
-                    </ul>
-                  </div>
-
-                  <div class="footer__widget-3">
-                    <h2 class="footer__widget-title">Contact Us</h2>
-                    <ul class="footer__contact">
-                      <li>Valentin, Street Road 24, New York, USA - 67452</li>
-                      <li><a href="tel:02574328301" class="phone">+02) 574 - 328 - 301 </a></li>
-                      <li><a href="mailto:info@buildyexample.com">info@buildyexample.com</a></li>
-                    </ul>
-                  </div>
-
-                  <div class="footer__widget-4">
-                    <h2 class="project-title">Have a project in your mind?</h2>
-                    <div class="btn_wrapper">
-                      <a href="contact.html" class="wc-btn-primary btn-hover btn-item"><span></span> contact us <i
-                          class="fa-solid fa-arrow-right"></i></a>
-                    </div>
-                    <h3 class="contact-time">09 : 00 AM - 10 : 30 PM</h3>
-                    <h4 class="contact-day">Saturday - Thursday</h4>
-                  </div>
-
-                  <div class="footer__copyright">
-                    <p>© 2022 - 2025 | Alrights reserved by <a href="https://wealcoder.com/"
-                        target="_blank">Wealcoder</a>
+                </div>
+                <div class="col-xxl-8 col-xl-10 offset-xxl-2 offset-xl-1">
+                  <div class="blog__detail-content">
+                    <p>
+                      Freight shipping isn’t one-size-fits-all. Whether you're
+                      an e-commerce brand, a car importer, or a project manager,
+                      choosing the right shipping model is critical to cost,
+                      speed, and reliability.
+                    </p>
+                    <h2>FOB (Free on Board)</h2>
+                    <p>
+                      FOB means your supplier or local agent manages everything
+                      up to the point your cargo is loaded onto the ship. SABIT
+                      steps in from there—handling overseas transport, customs
+                      clearance, and delivery if needed. This is ideal if you
+                      have trusted teams at the origin and destination.
+                    </p>
+                    <h2>EXW (Ex Works)</h2>
+                    <p>
+                      With EXW, your supplier makes the goods available at their
+                      premises, and SABIT handles pickup, customs clearance, and
+                      shipping to the destination port. It’s a great fit if you
+                      need help getting goods out of the supplier’s country but
+                      have destination logistics under control.
+                    </p>
+                    <h2>Door-to-Door</h2>
+                    <p>
+                      This is the most comprehensive option. SABIT picks up from
+                      your supplier, clears customs, ships it, and delivers
+                      directly to your door—no matter the country. This
+                      all-in-one solution is perfect if you want a hands-off,
+                      fully managed experience.
+                    </p>
+                    <img
+                      src="assets/imgs/blog/detail/door-to-door.jpg"
+                      alt="Door to Door Delivery"
+                    />
+                    <h2>Need Help Deciding?</h2>
+                    <p>
+                      SABIT simplifies the process by connecting you with
+                      trusted logistics professionals, based on your exact
+                      needs. Whether you're looking for flexible shipping or
+                      full-service support, we’ve got your back.
                     </p>
                   </div>
+                  <div class="blog__detail-tags">
+                    <p class="sub-title-anim">
+                      tags: <a href="category.html">shipping</a>,
+                      <a href="category.html">logistics</a>,
+                      <a href="category.html">freight forwarding</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Blog detail end -->
 
-                  <div class="footer__subscribe">
-                    <form action="#">
-                      <input type="email" name="email" placeholder="Enter your email">
-                      <button type="submit" class="subs-btn"><i class="fa-solid fa-paper-plane"></i></button>
-                    </form>
+          <!-- Related blog start -->
+          <section class="blog__related blog__animation">
+            <div class="container g-0 line pt-130 pb-140">
+              <span class="line-3"></span>
+              <div class="row">
+                <div class="col-xxl-12">
+                  <div class="sec-title-wrapper">
+                    <h2 class="sec-title title-anim">Related Aricles</h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row reset-grid">
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                  <article class="blog__item">
+                    <div class="blog__img-wrapper">
+                      <a href="blog-details.html">
+                        <div class="img-box">
+                          <img
+                            class="image-box__item"
+                            src="assets/imgs/blog/1.jpg"
+                            alt="Blog Thumbnail"
+                          />
+                          <img
+                            class="image-box__item"
+                            src="assets/imgs/blog/1.jpg"
+                            alt="BLog Thumbnail"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <h4 class="blog__meta sub-title-anim">
+                      <a href="category.html">UI Design</a> . 02 May 2019
+                    </h4>
+                    <h5>
+                      <a
+                        href="blog-details.html"
+                        class="blog__title sub-title-anim"
+                        >Ways of lying to yourself about your new
+                        relationship.</a
+                      >
+                    </h5>
+                    <a href="blog-details.html" class="blog__btn"
+                      >Read More
+                      <span><i class="fa-solid fa-arrow-right"></i></span
+                    ></a>
+                  </article>
+                </div>
+
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                  <article class="blog__item" data-speed="auto">
+                    <div class="blog__img-wrapper">
+                      <a href="blog-details.html">
+                        <div class="img-box">
+                          <img
+                            class="image-box__item"
+                            src="assets/imgs/blog/2.jpg"
+                            alt="Blog Thumbnail"
+                          />
+                          <img
+                            class="image-box__item"
+                            src="assets/imgs/blog/2.jpg"
+                            alt="BLog Thumbnail"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <h4 class="blog__meta sub-title-anim">
+                      <a href="category.html">UI Design</a> . 02 May 2019
+                    </h4>
+                    <h5>
+                      <a
+                        href="blog-details.html"
+                        class="blog__title sub-title-anim"
+                        >How to manage a talented and successful de sign team</a
+                      >
+                    </h5>
+                    <a href="blog-details.html" class="blog__btn"
+                      >Read More
+                      <span><i class="fa-solid fa-arrow-right"></i></span
+                    ></a>
+                  </article>
+                </div>
+
+                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
+                  <article class="blog__item" data-speed="auto">
+                    <div class="blog__img-wrapper">
+                      <a href="blog-details.html">
+                        <div class="img-box">
+                          <img
+                            class="image-box__item"
+                            src="assets/imgs/blog/3.jpg"
+                            alt="Blog Thumbnail"
+                          />
+                          <img
+                            class="image-box__item"
+                            src="assets/imgs/blog/3.jpg"
+                            alt="BLog Thumbnail"
+                          />
+                        </div>
+                      </a>
+                    </div>
+                    <h4 class="blog__meta sub-title-anim">
+                      <a href="category.html">UI Design</a> . 02 May 2019
+                    </h4>
+                    <h5>
+                      <a
+                        href="blog-details.html"
+                        class="blog__title sub-title-anim"
+                        >How to bring fold to your startup company with Axtra</a
+                      >
+                    </h5>
+                    <a href="blog-details.html" class="blog__btn"
+                      >Read More
+                      <span><i class="fa-solid fa-arrow-right"></i></span
+                    ></a>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- Related blog end -->
+
+          <!-- CTA area start -->
+          <section class="cta__area">
+            <div class="container line pb-110">
+              <div class="line-3"></div>
+              <div class="row">
+                <div class="col-xxl-12">
+                  <div class="cta__content">
+                    <p class="cta__sub-title">Work with us</p>
+                    <h2 class="cta__title title-anim">
+                      We would love to hear more about your project
+                    </h2>
+                    <div class="btn_wrapper">
+                      <a
+                        href="contact.html"
+                        class="wc-btn-primary btn-item btn-hover"
+                        ><span></span>Let’s talk us
+                        <i class="fa-solid fa-arrow-right"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- CTA area end -->
+        </main>
+
+        <!-- Footer area start -->
+        <footer class="footer__area">
+          <div class="footer__top">
+            <div class="container footer-line"></div>
+            <img
+              src="assets/imgs/thumb/footer.jpg"
+              alt="Footer Image"
+              data-speed="0.5"
+            />
+          </div>
+          <div class="footer__btm">
+            <div class="container">
+              <div class="row footer__row">
+                <div class="col-xxl-12">
+                  <div class="footer__inner">
+                    <div class="footer__widget">
+                      <img
+                        class="footer__logo"
+                        src="assets/imgs/logo1.png"
+                        alt="Footer Logo"
+                      />
+                      <p>
+                        When do they work well, and when do they on us and
+                        finally, when do we actually need how can we avoid them.
+                      </p>
+                      <ul class="footer__social">
+                        <li>
+                          <a href="https://x.com/justsabit?s=11"
+                            ><span><i class="fa-brands fa-twitter"></i></span
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="#"
+                            ><span><i class="fa-brands fa-linkedin"></i></span
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="https://www.youtube.com/@justsabit"
+                            ><span><i class="fa-brands fa-youtube"></i></span
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="https://www.instagram.com/justsabit"
+                            ><span><i class="fa-brands fa-instagram"></i></span
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="facebook.com/itsSABIT"
+                            ><span><i class="fa-brands fa-facebook-f"></i></span
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="https://www.tiktok.com/@justsabit_"
+                            ><span><i class="fa-brands fa-tiktok"></i></span
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="footer__widget-2">
+                      <h2 class="footer__widget-title">Information</h2>
+                      <ul class="footer__link">
+                        <li><a href="about.html">About Company</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="service.html">Services</a></li>
+                        <li><a href="blog.html">blog</a></li>
+                        <li><a href="contact.html">Plan Your Shipment</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="footer__widget-3">
+                      <h2 class="footer__widget-title">Contact Us</h2>
+                      <ul class="footer__contact">
+                        <li>
+                          <a href="tel:02574328301" class="phone"
+                            >+092 123456789
+                          </a>
+                        </li>
+                        <li>
+                          <a href="mailto:info@justsabit.com"
+                            >info@justsabit.com</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div class="footer__widget-4">
+                      <h2 class="project-title">
+                        Have a project in your mind?
+                      </h2>
+                      <div class="btn_wrapper">
+                        <a
+                          href="contact.html"
+                          class="wc-btn-primary btn-hover btn-item"
+                          ><span></span> contact us
+                          <i class="fa-solid fa-arrow-right"></i
+                        ></a>
+                      </div>
+                      <h3 class="contact-time">09 : 00 AM - 10 : 30 PM</h3>
+                      <h4 class="contact-day">Saturday - Thursday</h4>
+                    </div>
+
+                    <div class="footer__copyright">
+                      <p>
+                        © 2010 - 2025 | Alrights reserved by
+                        <a href="/" target="_blank">Sabit</a>
+                      </p>
+                    </div>
+
+                    <div class="footer__subscribe">
+                      <form action="#">
+                        <input
+                          type="email"
+                          name="email"
+                          placeholder="Enter your email"
+                        />
+                        <button type="submit" class="subs-btn">
+                          <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                      </form>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </footer>
-      <!-- Footer area end -->
-
-
+        </footer>
+        <!-- Footer area end -->
+      </div>
     </div>
-  </div>
 
+    <!-- All JS files -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/counter.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/ScrollToPlugin.min.js"></script>
+    <script src="assets/js/ScrollSmoother.min.js"></script>
+    <script src="assets/js/SplitText.min.js"></script>
+    <script src="assets/js/chroma.min.js"></script>
+    <script src="assets/js/mixitup.min.js"></script>
+    <script src="assets/js/vanilla-tilt.js"></script>
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 
-
-  <!-- All JS files -->
-  <script src="assets/js/jquery-3.6.0.min.js"></script>
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/swiper-bundle.min.js"></script>
-  <script src="assets/js/counter.js"></script>
-  <script src="assets/js/gsap.min.js"></script>
-  <script src="assets/js/ScrollTrigger.min.js"></script>
-  <script src="assets/js/ScrollToPlugin.min.js"></script>
-  <script src="assets/js/ScrollSmoother.min.js"></script>
-  <script src="assets/js/SplitText.min.js"></script>
-  <script src="assets/js/chroma.min.js"></script>
-  <script src="assets/js/mixitup.min.js"></script>
-  <script src="assets/js/vanilla-tilt.js"></script>
-  <script src="assets/js/jquery.meanmenu.min.js"></script>
-  <script src="assets/js/main.js"></script>
-
-
-</body>
-
-
-<!-- Mirrored from wealcoder.com/dev/html/axtra/blog-details-dark.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 May 2025 20:05:14 GMT -->
+  <!-- Mirrored from wealcoder.com/dev/html/axtra/blog-details-dark.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 16 May 2025 20:05:14 GMT -->
 </html>
