@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollSmoother } from "@/plugins";
 import Link from "next/link.js";
-import About31 from "../../../public/assets/imgs/about/3/1.jpg";
+import About31 from "../../../public/assets/imgs/about/4.png";
 import Image from "next/image.js";
 
 gsap.registerPlugin(ScrollSmoother);
@@ -25,7 +25,7 @@ const DigitalMarketingAbout = () => {
   }, []);
   return (
     <>
-      <section className="about__area-3">
+      <section className="about__area-3 mt-5">
         <div className="container pt-140 pb-110">
           <div className="row">
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
@@ -45,18 +45,23 @@ const DigitalMarketingAbout = () => {
               <div className="sec-title-wrapper">
                 <h2 className="sec-sub-title title-anim">Who We Are</h2>
                 <h3 className="sec-title title-anim">
-                  We are leading digital marketing agency.
+                  Shipping Sucks. We Fix It.
                 </h3>
               </div>
               <div className="sec-text-wrapper">
                 <div className="sec-text text-anim">
-                  <p>
-                    We’re a team of strategic mdigital marketing working
-                    globally with largest brands, We believe that progress only
-                    happens when you refused to play things safe. We combine
-                    ideas and behaviors, and insights with design, technological
-                    data to produce brand experiences that customers love our
-                    services.
+                  <p className="py-0 my-0">
+                    SABIT was built to solve a frustrating truth: Most
+                    suppliers, freight forwarders or shippers overpromise,
+                    underdeliver, and vanish when things go wrong.
+                  </p>
+                  <h5 className="mt-4 mb-2 text-white">
+                    We do it differently.
+                  </h5>
+                  <p className="py-0 my-0">
+                    SABIT was built to solve a frustrating truth: Most
+                    suppliers, freight forwarders or shippers overpromise,
+                    underdeliver, and vanish when things go wrong.
                   </p>
                   <div className="btn_wrapper">
                     <Link

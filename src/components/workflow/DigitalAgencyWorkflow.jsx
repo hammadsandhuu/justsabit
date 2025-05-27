@@ -63,9 +63,6 @@ const DigitalAgencyWorkflow = () => {
                   1024: {
                     slidesPerView: 3,
                   },
-                  1200: {
-                    slidesPerView: 4,
-                  },
                 }}
               >
                 <div className="swiper-wrapper">
@@ -96,39 +93,6 @@ const DigitalAgencyWorkflow = () => {
                       <h6 className="workflow__title">Customize</h6>
                       <p>
                         Creating brand identities for the digital experiences
-                      </p>
-                    </div>
-                  </SwiperSlide>
-
-                  <SwiperSlide>
-                    <div className="workflow__slide fade_left">
-                      <h4 className="workflow__step">step 04</h4>
-                      <h5 className="workflow__number">04</h5>
-                      <h6 className="workflow__title">User Testing</h6>
-                      <p>
-                        We look forward to engage with beyond the conventional
-                      </p>
-                    </div>
-                  </SwiperSlide>
-
-                  <SwiperSlide>
-                    <div className="workflow__slide fade_left">
-                      <h4 className="workflow__step">step 05</h4>
-                      <h5 className="workflow__number">05</h5>
-                      <h6 className="workflow__title">User Testing</h6>
-                      <p>
-                        We look forward to engage with beyond the conventional
-                      </p>
-                    </div>
-                  </SwiperSlide>
-
-                  <SwiperSlide>
-                    <div className="workflow__slide fade_left">
-                      <h4 className="workflow__step">step 06</h4>
-                      <h5 className="workflow__number">06</h5>
-                      <h6 className="workflow__title">User Testing</h6>
-                      <p>
-                        We look forward to engage with beyond the conventional
                       </p>
                     </div>
                   </SwiperSlide>

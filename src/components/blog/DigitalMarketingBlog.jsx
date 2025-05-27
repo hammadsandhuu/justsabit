@@ -2,8 +2,8 @@ import { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
 import Link from "next/link.js";
-import Blog31 from "../../../public/assets/imgs/blog/3/1.jpg";
-import Blog32 from "../../../public/assets/imgs/blog/3/2.jpg";
+import Blog31 from "../../../public/assets/imgs/blogs/7.png";
+import Blog32 from "../../../public/assets/imgs/blogs/5.png";
 import Image from "next/image.js";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -97,11 +97,12 @@ const DigitalMarketingBlog = () => {
                 </div>
                 <div className="blog__info-3">
                   <h4 className="blog__meta">
-                    <Link href="/category">UI Design</Link> . 02 May 2019
+                    <Link href="/category">Sabit Does</Link> . 02 May 2019
                   </h4>
                   <h5>
                     <Link href="/blog-details" className="blog__title-3">
-                      How to bring fold to your startup company with Axtra
+                      Why Traditional Freight Forwarders Fail — And What SABIT
+                      Does Differently
                     </Link>
                   </h5>
                   <Link href="/blog-details" className="blog__btn">
@@ -138,11 +139,12 @@ const DigitalMarketingBlog = () => {
                 </div>
                 <div className="blog__info-3">
                   <h4 className="blog__meta">
-                    <Link href="/category">UI Design</Link> . 02 May 2019
+                    <Link href="/category">Our Services</Link> . 02 May 2019
                   </h4>
                   <h5>
                     <Link href="/blog-details" className="blog__title-3">
-                      How to manage a talented and successful design team
+                      FOB, EXW, or Door-to-Door: Which Shipping Option Is Right
+                      for You?
                     </Link>
                   </h5>
                   <Link href="/blog-details" className="blog__btn">

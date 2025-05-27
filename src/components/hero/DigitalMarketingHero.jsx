@@ -1,15 +1,16 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import { SplitText } from "@/plugins";
+import { ScrollTrigger, SplitText } from "@/plugins";
+import Image from "next/image";
 import ArrowDownSm from "../../../public/assets/imgs/icon/arrow-down-sm.png";
-import Hero31 from "../../../public/assets/imgs/hero/3/1.jpg";
-import Image from "next/image.js";
+import animationCharCome from "@/lib/utils/animationCharCome";
 
 const DigitalMarketingHero = () => {
   const titleLeft = useRef();
   const titleRight = useRef();
+  const charAnim = useRef();
+  const charAnim2 = useRef();
   const heroTextAnim = useRef();
-
   const videoCheck = useRef();
   const videoCloseSection = useRef();
   const videoTitle = useRef();
@@ -41,14 +42,45 @@ const DigitalMarketingHero = () => {
         );
         HomeDigital.from(
           split_text_animation.words,
-          { duration: 1, x: 50, autoAlpha: 0, stagger: 0.05 },
+          { duration: 0.01, x: 50, autoAlpha: 0, stagger: 0.05 },
           "-=1"
         );
       });
       return () => tHero.revert();
     }
   }, []);
-
+  useEffect(() => {
+    animationCharCome(charAnim.current);
+    animationCharCome(charAnim2.current);
+    if (typeof window !== "undefined") {
+      let hero__text_animation = heroTextAnim.current;
+      let tHero = gsap.context(() => {
+        let split_text_animation = new SplitText(hero__text_animation, {
+          type: "chars words",
+        });
+        gsap.from(
+          split_text_animation.words,
+          { duration: 0.5, x: 50, autoAlpha: 0, stagger: 0.05 },
+          "-=1"
+        );
+        let imageTl_8 = gsap.timeline({
+          scrollTrigger: {
+            trigger: ".portfolio__big",
+            start: "top top+=90",
+            pin: true,
+            markers: false,
+            scrub: 1,
+            pinSpacing: false,
+            end: "bottom bottom+=150",
+          },
+        });
+        imageTl_8.to(".portfolio__big-inner", {
+          width: "100%",
+        });
+      });
+      return () => tHero.revert();
+    }
+  }, []);
   const openVideo = () => {
     let headerArea = document.querySelector(".header__area-3");
     let video = videoTitle.current;
@@ -75,12 +107,12 @@ const DigitalMarketingHero = () => {
             <div className="col-xxl-12">
               <div className="hero__inner-3">
                 <div className="sec-title-wrapper">
-                  <h2 className="sec-sub-title">Digital</h2>
+                  <h2 className="sec-sub-title">Explore Our</h2>
                   <h3 className="sec-title title-left" ref={titleLeft}>
-                    Mark
+                    Ship
                   </h3>
                   <h3 className="sec-title title-right" ref={titleRight}>
-                    eting
+                    ping
                   </h3>
                 </div>
                 <div className="hero__text-3">
@@ -89,6 +121,13 @@ const DigitalMarketingHero = () => {
                     before your product is even released. We can integrate with
                     your dev environment
                   </p>
+                  <ul className="text-white mt-2">
+                    <li>+ On-Time Deliveries</li>
+                    <li>+ Fast Response</li>
+                    <li>+ Full Transparency</li>
+                    <li>+ Proactive Support</li>
+                    <li>+ Full Coompliance Checks</li>
+                  </ul>
                 </div>
                 <div className="scroll-down">
                   <button>
@@ -126,7 +165,7 @@ const DigitalMarketingHero = () => {
               </div>
               <div className="video">
                 <video
-                  src="assets/video/hero-3.mp4"
+                  src="assets/1.mp4"
                   loop
                   muted
                   autoPlay
@@ -137,7 +176,7 @@ const DigitalMarketingHero = () => {
           </div>
         </div>
 
-        <div className="hero3-img-ani">
+        {/* <div className="hero3-img-ani">
           <Image
             priority
             width={1195}
@@ -146,8 +185,16 @@ const DigitalMarketingHero = () => {
             alt="Hero Image"
             className="hero3-img"
           />
-        </div>
+        </div> */}
       </section>
+      <div className="portfolio__big mt-5">
+        <div
+          className="portfolio__big-inner"
+          style={{ backgroundImage: "url(assets/1.png)" }}
+        >
+          {" "}
+        </div>
+      </div>
     </>
   );
 };

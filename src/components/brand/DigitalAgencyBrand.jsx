@@ -62,10 +62,10 @@ const DigitalAgencyBrand = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="sec-title-wrapper">
-                <h2 className="sec-sub-title title-anim">Internation Brands</h2>
+                <h2 className="sec-sub-title title-anim">Just Sabit</h2>
                 <h3 className="sec-title title-anim">
-                  We are happy to work with global <br />
-                  largest brands
+                  Our Legacy Of Experience <br />
+                  Include Work with
                 </h3>
               </div>
             </div>

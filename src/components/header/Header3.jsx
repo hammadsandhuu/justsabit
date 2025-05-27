@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import Canvas from "../canvas/Canvas";
 import Link from "next/link";
-import LogoWhite from "../../../public/assets/imgs/logo/site-logo-white.png";
-import LogoWhite2 from "../../../public/assets/imgs/logo/site-logo-white-2.png";
+import LogoWhite from "../../../public/assets/imgs/logo/logo-rotate.png";
+import LogoWhite2 from "../../../public/assets/imgs/logo/logo1.png";
 import MenuWhite from "../../../public/assets/imgs/icon/menu-white.png";
 import Image from "next/image";
 
@@ -45,22 +45,22 @@ export default function Header3() {
   };
   return (
     <>
-      <header className="header__area" ref={headerArea}>
+      <header className="header__area py-3" ref={headerArea}>
         <div className="header__inner">
           <div className="header__logo">
             <Link href="/digital-marketing">
               <Image
                 priority
-                width={33}
-                height={100}
+                width={45}
+                height={150}
                 className="logo-primary"
                 src={LogoWhite}
                 alt="Site Logo"
               />
               <Image
                 priority
-                width={100}
-                height={33}
+                width={150}
+                height={45}
                 className="logo-secondary"
                 src={LogoWhite2}
                 alt="Moibile Logo"

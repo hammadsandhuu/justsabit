@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 import { Power1, gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
 import Link from "next/link.js";
-import Counter3 from "../../../public/assets/imgs/thumb/counter-3.png";
+import Counter3 from "../../../public/assets/imgs/thumb/10.png";
 import Image from "next/image.js";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -96,7 +96,7 @@ const DigitalMarketingWorkflow = () => {
             gsap.from(gsap.utils.toArray(`.count${i}`), {
               textContent: 0,
               duration: 1,
-              delay: 3,
+              delay: i * 0.5,
               ease: Power1.easeIn,
               snap: { textContent: 1 },
               stagger: 1,

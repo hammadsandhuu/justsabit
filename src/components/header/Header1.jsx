@@ -97,7 +97,7 @@ export default function Header1({ navData }) {
     <>
       {navData && Object.keys(navData).length && (
         <>
-          <header className="header__area-3" ref={headerArea}>
+          <header className="header__area-3 py-1" ref={headerArea}>
             <div className="header__inner-3">
               <LogoItem />
               {navData.nav && navData.nav.length && (

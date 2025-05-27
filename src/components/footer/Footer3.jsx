@@ -1,6 +1,6 @@
 import Link from "next/link";
-import ThumbFooter from "../../../public/assets/imgs/thumb/footer.jpg";
-import FooterLogoWhite from "../../../public/assets/imgs/logo/footer-logo-white.png";
+import ThumbFooter from "../../../public/assets/imgs/footer/3.png";
+import FooterLogoWhite from "../../../public/assets/imgs/logo/logo1.png";
 import Image from "next/image";
 
 export default function Footer3() {
@@ -27,6 +27,8 @@ export default function Footer3() {
                   <div className="footer__widget">
                     <Image
                       priority
+                      width={150}
+                      height={50}
                       style={{ width: "auto", height: "auto" }}
                       className="footer__logo"
                       src={FooterLogoWhite}
@@ -75,10 +77,10 @@ export default function Footer3() {
                         <Link href="/about">About Company</Link>
                       </li>
                       <li>
-                        <Link href="/portfolio">Case Study</Link>
+                        <Link href="/our-services">Services</Link>
                       </li>
                       <li>
-                        <Link href="/career">Career</Link>
+                        <Link href="/portfolio">Portfolio</Link>
                       </li>
                       <li>
                         <Link href="/blog">blog</Link>
@@ -92,7 +94,6 @@ export default function Footer3() {
                   <div className="footer__widget-3">
                     <h2 className="footer__widget-title">Contact Us</h2>
                     <ul className="footer__contact">
-                      <li>Valentin, Street Road 24, New York, USA - 67452</li>
                       <li>
                         <a href="tel:02574328301" className="phone">
                           (+02) 574 - 328 - 301{" "}
@@ -100,7 +101,7 @@ export default function Footer3() {
                       </li>
                       <li>
                         <a href="mailto:info@buildyexample.com">
-                          info@buildyexample.com
+                          info@justsabit.com
                         </a>
                       </li>
                     </ul>
@@ -125,9 +126,9 @@ export default function Footer3() {
 
                   <div className="footer__copyright">
                     <p>
-                      © 2022 - 2025 | Alrights reserved by{" "}
+                      © 2010 - 2025 | Alrights reserved by{" "}
                       <a href="https://wealcoder.com/" target="_blank">
-                        Wealcoder
+                        SABIT
                       </a>
                     </p>
                   </div>
