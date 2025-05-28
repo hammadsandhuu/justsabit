@@ -3,6 +3,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger, SplitText } from "@/plugins";
 import Image from "next/image";
 import ArrowDownSm from "../../../public/assets/imgs/icon/arrow-down-sm.png";
+import Hero from "../../../public/assets/imgs/hero/17.png";
 import animationCharCome from "@/lib/utils/animationCharCome";
 
 const DigitalMarketingHero = () => {
@@ -116,28 +117,27 @@ const DigitalMarketingHero = () => {
                   </h3>
                 </div>
                 <div className="hero__text-3">
-                  <p className="hero__text-animation" ref={heroTextAnim}>
-                    Static and dynamic secure code review can prevent a day
-                    before your product is even released. We can integrate with
-                    your dev environment
-                  </p>
-                  <ul className="text-white mt-2">
-                    <li>+ On-Time Deliveries</li>
-                    <li>+ Fast Response</li>
-                    <li>+ Full Transparency</li>
-                    <li>+ Proactive Support</li>
-                    <li>+ Full Coompliance Checks</li>
-                  </ul>
-                </div>
-                <div className="scroll-down">
-                  <button>
-                    <Image
-                      priority
-                      style={{ width: "auto", height: "auto" }}
-                      src={ArrowDownSm}
-                      alt="arrow icon"
-                    />
-                  </button>
+                  <div className="grid-column">
+                    <h4 className="text-white">Avoid</h4>
+                    <ul className="text-white">
+                      <li>+ Late Deliveries</li>
+                      <li>+ Slow Response</li>
+                      <li>+ Hidden charges </li>
+                      <li>+ Wrong Paper work</li>
+                      <li>+ Constant Follow-Up</li>
+                      <li>+ issuess with Customs</li>
+                    </ul>
+                  </div>
+                  <div className="grid-column">
+                    <h4 className="text-white mt-2">Expect</h4>
+                    <ul className="text-white">
+                      <li>+ On-Time Deliveries</li>
+                      <li>+ Fast Response</li>
+                      <li>+ Full Transparency</li>
+                      <li>+ Proactive Support</li>
+                      <li>+ Full Compliance Checks</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
@@ -176,25 +176,17 @@ const DigitalMarketingHero = () => {
           </div>
         </div>
 
-        {/* <div className="hero3-img-ani">
+        <div className="hero3-img-ani">
           <Image
             priority
             width={1195}
             style={{ height: "auto" }}
-            src={Hero31}
+            src={Hero}
             alt="Hero Image"
             className="hero3-img"
           />
-        </div> */}
-      </section>
-      <div className="portfolio__big mt-5">
-        <div
-          className="portfolio__big-inner"
-          style={{ backgroundImage: "url(assets/1.png)" }}
-        >
-          {" "}
         </div>
-      </div>
+      </section>
     </>
   );
 };

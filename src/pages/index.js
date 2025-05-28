@@ -8,6 +8,7 @@ import DigitalMarketingBlog from "@/components/blog/DigitalMarketingBlog";
 import DigitalAgencyBrand from "@/components/brand/DigitalAgencyBrand";
 import DigitalAgencyWorkflow from "@/components/workflow/DigitalAgencyWorkflow";
 import DigitalAgencyPortfolio from "@/components/portfolio/DigitalAgencyPortfolio";
+import DesignStudioFeature from "@/components/feature/DesignStudioFeature";
 
 export default function Index() {
   return (
@@ -20,7 +21,7 @@ export default function Index() {
       <main>
         <RootLayout header="header1" footer="footer3" defaultMode="dark">
           <DigitalMarketingHero />
-          <DigitalAgencyBrand />
+          <DesignStudioFeature />
           <DigitalMarketingAbout />
           <DigitalMarketingService />
           <DigitalAgencyWorkflow />
