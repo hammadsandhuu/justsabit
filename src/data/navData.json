@@ -13,20 +13,76 @@
       "sub_nav": []
     },
     {
-      "nav_name": "Services",
-      "link": "/our-services",
+      "nav_name": "SERVICES",
+      "link": "/service",
+      "type": "dropdown",
+      "sub_nav": [
+        {
+          "name": "Door-to-Door",
+          "link": "/door-to-door"
+        },
+        {
+          "name": "Flexible FOB Shipping",
+          "link": "/flexible-fob-shipping"
+        },
+        {
+          "name": "EXW Shipping",
+          "link": "/exw-shipping"
+        },
+        {
+          "name": "Relable custom & transpotion services",
+          "link": "/additional-services"
+        }
+      ]
+    },
+    {
+      "nav_name": "SECTORS",
+      "link": "/service",
+      "type": "dropdown",
+      "sub_nav": [
+        {
+          "name": "Luxury Automotive",
+          "link": "/service/luxury-automotive"
+        },
+        {
+          "name": "Diplomatic Missions",
+          "link": "/service/diplomatic-missions"
+        },
+        {
+          "name": "Hospitality Groups",
+          "link": "/service/hospitality-groups"
+        },
+        {
+          "name": "Mega Projects",
+          "link": "/service/mega-projects"
+        },
+        {
+          "name": "Oil & Gas",
+          "link": "/service/oil-and-gas"
+        },
+        {
+          "name": "Food & Commodities",
+          "link": "/service/food-and-commodities"
+        },
+        {
+          "name": "Furniture & Fixtures",
+          "link": "/service/furniture-and-fixtures"
+        },
+        {
+          "name": "Materials & Manufacturing",
+          "link": "/service/materials-and-manufacturing"
+        }
+      ]
+    },
+    {
+      "nav_name": "HOW IT WORKS",
+      "link": "/how-it-works",
       "type": "",
       "sub_nav": []
     },
     {
-      "nav_name": "Blog",
+      "nav_name": "BLOGS",
       "link": "/blog",
-      "type": "",
-      "sub_nav": []
-    },
-    {
-      "nav_name": "Contact",
-      "link": "/contact",
       "type": "",
       "sub_nav": []
     }

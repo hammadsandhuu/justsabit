@@ -89,7 +89,7 @@
 
   &__content {
     padding-left: 85px;
-    padding-top: 60px;
+    padding-top: 10px;
 
     @media #{$xl} {
       padding-left: 30px;
@@ -116,7 +116,7 @@
     font-size: 36px;
     line-height: 1.1;
     color: var(--black-2);
-    max-width: 315px;
+    max-width: 415px;
     margin-bottom: 25px;
 
     @media #{$lg} {

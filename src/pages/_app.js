@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <NextTopLoader
-        color="#f11946"
+        color="#c9f31d"
         showSpinner={false}
         height={3}
         crawlSpeed={200}

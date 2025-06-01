@@ -59,7 +59,7 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
               <Link href="/digital-marketing">
                 <Image
                   priority
-                  width={150}
+                  width={100}
                   height={100}
                   style={{ width: "auto", height: "auto" }}
                   src={logoWhite2}
@@ -71,22 +71,19 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
               <h3 className="social-title">Follow Us</h3>
               <ul>
                 <li>
-                  <a href="#">Dribbble</a>
+                  <a href="https://www.tiktok.com/@justsabit_">Tik Tok</a>
                 </li>
                 <li>
-                  <a href="#">Behance</a>
+                  <a href="https://www.instagram.com/justsabit">Instagram</a>
                 </li>
                 <li>
-                  <a href="#">Instagram</a>
+                  <a href="https://facebook.com/itsSABIT">Facebook</a>
                 </li>
                 <li>
-                  <a href="#">Facebook</a>
+                  <a href="https://x.com/justsabit?s=11">Twitter</a>
                 </li>
                 <li>
-                  <a href="#">Twitter</a>
-                </li>
-                <li>
-                  <a href="#">YouTube</a>
+                  <a href="https://www.youtube.com/@justsabit">YouTube</a>
                 </li>
               </ul>
             </div>
@@ -97,9 +94,6 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                 </li>
                 <li>
                   <Link href="/contact">contact</Link>
-                </li>
-                <li>
-                  <Link href="/career">Career</Link>
                 </li>
                 <li>
                   <Link href="/blog">blog</Link>
@@ -122,8 +116,8 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                     </div>
                   </li>
                   <li>
-                    <div className="header_title d-flex">
-                      <Link href={"/service"}>SERVICE</Link>
+                    <div className="header_title">
+                      <Link href={"/projects"}>PROJECTS</Link>
                     </div>
                   </li>
                   <li>
@@ -133,7 +127,7 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                   </li>
                   <li>
                     <div className="header_title">
-                      <Link href={"/contact"}>CONTACT</Link>
+                      <Link href={"/contact"}>Place your Shipment</Link>
                     </div>
                   </li>
                 </ul>
@@ -156,9 +150,10 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                   <a href="tel:02094980547">+(02) - 094 980 547</a>
                 </li>
                 <li>
-                  <a href="mailto:info@extradesign.com">info@extradesign.com</a>
+                  <a href="mailto:advisory@justsabit.com">
+                    advisory@justsabit.com
+                  </a>
                 </li>
-                <li>230 Norman Street New York, QC (USA) H8R 1A1</li>
               </ul>
             </div>
             <Image

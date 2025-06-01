@@ -1,29 +1,30 @@
-import DigitalAgencyBrand from "@/components/brand/DigitalAgencyBrand";
 import RootLayout from "@/components/common/layout/RootLayout";
-import AboutCounter from "@/components/counter/AboutCounter";
-import DigitalAgencyCTA from "@/components/cta/DigitalAgencyCTA";
-import AboutHero from "@/components/hero/AboutHero";
-import AboutStory from "@/components/story/AboutStory";
-import AboutTeam from "@/components/team/AboutTeam";
-import AboutTestimonial from "@/components/testimonial/AboutTestimonial";
+import CounterSection from "@/components/counter/CounterSection";
+import CTASection from "@/components/cta/CtaSection";
+import FeatureSection from "@/components/feature/FeatureSection";
+import AboutHeroSection from "@/components/hero/AboutHeroSection";
+import AboutStorySection from "@/components/story/AboutStorySection";
+import TestimonialSection from "@/components/testimonial/TestimonialSection";
+import WorkflowSection from "@/components/workflow/WorkfLowSection";
 import Head from "next/head";
 
 const Index = () => {
   return (
     <div>
       <Head>
-        <title>About Dark</title>
+        <title>About - sabit</title>
         <meta name="description" content="About Dark Description" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
         <RootLayout defaultMode="dark">
-          <AboutHero />
-          <AboutStory />
-          <AboutCounter />
-          <DigitalAgencyBrand />
-          <AboutTestimonial />
-          <DigitalAgencyCTA />
+          <AboutHeroSection />
+          <AboutStorySection />
+          <CounterSection />
+          <WorkflowSection />
+          <FeatureSection />
+          <TestimonialSection />
+          <CTASection />
         </RootLayout>
       </main>
     </div>

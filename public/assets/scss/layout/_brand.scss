@@ -26,7 +26,7 @@
 
   &__list {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     background-color: var(--white);
     border-bottom: 1px solid var(--white-3);
     position: relative;
@@ -34,11 +34,11 @@
     margin-left: 1px;
 
     @media #{$lg} {
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(8, 1fr);
     }
 
     @media #{$md} {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(4, 1fr);
     }
 
     @media #{$sm} {
@@ -77,8 +77,6 @@
   &__item {
     padding: 40px;
     text-align: center;
-    border-top: 1px solid var(--white-3);
-    border-right: 1px solid var(--white-3);
 
     @media #{$xl} {
       padding: 35px;
@@ -90,11 +88,6 @@
 
     @media #{$sm} {
       padding: 30px 0;
-      border-left: 1px solid var(--white-3);
-
-      &:nth-child(even) {
-        border-left: none;
-      }
     }
 
     &-2 {
@@ -111,23 +104,26 @@
   }
 
   &__title {
-    &-2 {
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 1.5;
-      color: var(--white);
-      padding-bottom: 50px;
-      text-align: center;
-    }
-
     &-3 {
-      font-size: 18px;
+      font-size: 38px;
       line-height: 1.4;
       color: var(--black-2);
       text-align: center;
       padding-bottom: 65px;
       font-weight: 400;
       text-transform: uppercase;
+  
+      @media #{$xl} {
+        font-size: 34px;
+      }
+  
+      @media #{$md} {
+        font-size: 24px;
+      }
+  
+      @media #{$sm} {
+        font-size: 20px;
+      }
     }
   }
 }

@@ -25,11 +25,13 @@ const ServiceDetailsDevelopment = () => {
             <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
               <div className="development__wrapper">
                 <div className="development__content">
+                  <h6 className="text-white mb-2">jdajkfdkfadkka</h6>
                   <p>
                     Every decision we make needs to answer the million-dollar
                     question: how will this benefit our partner’s goal best? We
                     work to develop solutions
                   </p>
+                  <h6 className="text-white mb-2 mt-4">jdajkfdkfadkka</h6>
                   <p>
                     We like to be different, in the same way that every mission
                     is different. Every project is an opportunity to create

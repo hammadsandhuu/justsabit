@@ -27,7 +27,7 @@ export default function Footer3() {
                   <div className="footer__widget">
                     <Image
                       priority
-                      width={150}
+                      width={120}
                       height={50}
                       style={{ width: "auto", height: "auto" }}
                       className="footer__logo"
@@ -40,30 +40,37 @@ export default function Footer3() {
                     </p>
                     <ul className="footer__social">
                       <li>
-                        <a href="#">
+                        <a href="https://facebook.com/itsSABIT">
                           <span>
                             <i className="fa-brands fa-facebook-f"></i>
                           </span>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="https://x.com/justsabit?s=11">
                           <span>
                             <i className="fa-brands fa-twitter"></i>
                           </span>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="https://www.instagram.com/justsabit">
                           <span>
                             <i className="fa-brands fa-instagram"></i>
                           </span>
                         </a>
                       </li>
                       <li>
-                        <a href="#">
+                        <a href="https://www.youtube.com/@justsabit">
                           <span>
-                            <i className="fa-brands fa-linkedin"></i>
+                            <i className="fa-brands fa-youtube"></i>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.tiktok.com/@justsabit_">
+                          <span>
+                            <i className="fa-brands fa-tiktok"></i>
                           </span>
                         </a>
                       </li>
@@ -86,7 +93,7 @@ export default function Footer3() {
                         <Link href="/blog">blog</Link>
                       </li>
                       <li>
-                        <Link href="/contact">contact</Link>
+                        <Link href="/disclaimer">Disclaimer</Link>
                       </li>
                     </ul>
                   </div>

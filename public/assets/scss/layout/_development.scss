@@ -26,9 +26,6 @@
   }
 
   &__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 80px;
     padding-bottom: 35px;
     margin-bottom: 30px;
     border-bottom: 1px solid var(--black-3);
@@ -73,7 +70,7 @@
   }
 
   &__img {
-    @include img_anim(100%, 400px, 150%);
+    @include img_anim(100%, 400px, 110%);
     z-index: 9;
 
     @media #{$md} {
