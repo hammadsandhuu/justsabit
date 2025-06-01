@@ -2,19 +2,11 @@ import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "@/plugins";
 import Link from "next/link";
-import doorTodoor from "../../../public/assets/imgs/service/door-to-door/7.png";
-import Service12 from "../../../public/assets/imgs/service/1/2.png";
-import Service13 from "../../../public/assets/imgs/service/1/3.png";
-import Service14 from "../../../public/assets/imgs/service/1/4.png";
-import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const ServiceSection = () => {
   const [activeList, setActiveList] = useState(1);
-  const [activeImg, setActiveImg] = useState(1);
-  const [activeShape, setActiveShape] = useState(1);
-
   const serviceList = useRef();
 
   useEffect(() => {
@@ -24,8 +16,7 @@ const ServiceSection = () => {
       for (let i = 0; i < listItem.length; i++) {
         listItem[i].addEventListener("mousemove", function (e) {
           var service_id = this.getAttribute("data-service");
-          setActiveImg(parseInt(service_id));
-          setActiveShape(parseInt(service_id));
+          setActiveList(parseInt(service_id));
 
           if (service_id != 1) {
             setActiveList(0);
@@ -117,9 +108,11 @@ const ServiceSection = () => {
           <div className="row">
             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
               <div className="sec-title-wrapper wrap">
-                <h2 className="sec-sub-title title-anim">Don't Believe Us?</h2>
+                <h2 className="sec-sub-title title-anim">
+                  {"Don't"} Believe Us?
+                </h2>
                 <h3 className="sec-title title-anim">
-                  Here's - <br /> Who Have
+                  {"Here's"} - <br /> Who Have
                 </h3>
               </div>
             </div>

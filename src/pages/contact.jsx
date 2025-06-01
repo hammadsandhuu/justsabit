@@ -4,7 +4,7 @@ import animationCharCome from "@/lib/utils/animationCharCome";
 import animationWordCome from "@/lib/utils/animationWordCome";
 import { useEffect, useRef } from "react";
 
-const index = () => {
+const Index = () => {
   const charAnim = useRef();
   const wordAnim = useRef();
   useEffect(() => {
@@ -123,4 +123,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
