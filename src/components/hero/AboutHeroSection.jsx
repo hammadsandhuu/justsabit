@@ -37,7 +37,7 @@ const AboutHeroSection = () => {
                   <div className="hero__about-text title-anim">
                     <p>
                       {
-                        "Shipping shouldn't be a gamble. At SABIT, we simplify global logistics by helping you choose the right agents, avoid mistakes, and stay in control.No guesswork. No chasing.Just real-world support you can trust — wherever and whatever you ship."
+                        "Shipping shouldn't be a gamble. At SABIT, we simplify global logistics by helping you choose the right agents, avoid mistakes, and stay in control. No guesswork. No chasing. Just real-world support you can trust — wherever and whatever you ship."
                       }
                     </p>
                   </div>

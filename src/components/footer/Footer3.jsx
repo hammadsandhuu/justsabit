@@ -123,7 +123,8 @@ export default function Footer3() {
 
                   <div className="footer__widget-4">
                     <h2 className="project-title">
-                      Have a project in your mind?
+                      Talk to our advisory team. It’s free and fast <br /> no
+                      pressure.
                     </h2>
                     <div className="btn_wrapper">
                       <Link
@@ -152,7 +153,7 @@ export default function Footer3() {
                       <input
                         type="email"
                         name="email"
-                        placeholder="Enter your email"
+                        placeholder="Subscribe our news letters"
                       />
                       <button type="submit" className="subs-btn">
                         <i className="fa-solid fa-paper-plane"></i>

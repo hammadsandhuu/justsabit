@@ -374,6 +374,7 @@
       }
 
       img {
+        
         // update v0.2 
         @media #{$lg} {
           position: unset;
@@ -388,6 +389,7 @@
         @media #{$sm} {
           position: unset;
           height: auto;
+          display: none;
         }
       }
     }
