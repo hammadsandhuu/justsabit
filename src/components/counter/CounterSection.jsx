@@ -70,34 +70,37 @@ const CounterSection = () => {
             <div className="col-xxl-12">
               <div className="counter__wrapper counter_animation">
                 <div className="counter__item counter__anim">
-                  <h2 className="counter__number count1">25k+</h2>
+                  <h2 className="counter__number count1">98%</h2>
                   <p>
-                    Project <br />
-                    completed
+                    Happy
+                    <br />
+                    Customers
                   </p>
                   <span className="counter__border"></span>
                 </div>
                 <div className="counter__item counter__anim">
-                  <h2 className="counter__number count2">8k+</h2>
+                  <h2 className="counter__number count2">100k+</h2>
                   <p>
-                    Happy <br />
-                    customers
+                    Successful
+                    <br />
+                    Shipments Advised
                   </p>
                   <span className="counter__border"></span>
                 </div>
                 <div className="counter__item counter__anim">
-                  <h2 className="counter__number count3">15</h2>
+                  <h2 className="counter__number count3">72%</h2>
+                  <p>
+                    Switch to SABIT
+                    <br />
+                    After One Call
+                  </p>
+                  <span className="counter__border"></span>
+                </div>
+                <div className="counter__item counter__anim">
+                  <h2 className="counter__number count4">40+</h2>
                   <p>
                     Years <br />
-                    experiences
-                  </p>
-                  <span className="counter__border"></span>
-                </div>
-                <div className="counter__item counter__anim">
-                  <h2 className="counter__number count4">98</h2>
-                  <p>
-                    Awards <br />
-                    achievement
+                    Of Freight Advisory Experience
                   </p>
                   <span className="counter__border"></span>
                 </div>

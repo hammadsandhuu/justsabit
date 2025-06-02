@@ -112,17 +112,16 @@ const ServiceSection = () => {
                   {"Don't"} Believe Us?
                 </h2>
                 <h3 className="sec-title title-anim">
-                  {"Here's"} - <br /> Who Have
+                  {"What "} - <br /> We Help
                 </h3>
               </div>
             </div>
             <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
               <div className="service__top-text text-anim">
                 <p>
-                  From{" "}
-                  <span>Door-to-Door, FOB, EXW, to Customs Clearance </span> and
-                  Transport—our freight services ensure reliability, efficiency,
-                  and control, tailored to meet your business logistics needs.
+                  From <span> EXW to FOB, Door-to-Door, and Customs</span>, we
+                  help you choose the right freight method — by air or sea — and
+                  the right partners to make it happen.
                 </p>
               </div>
             </div>
@@ -143,91 +142,10 @@ const ServiceSection = () => {
 
           <div className="service__list-wrapper">
             <div className="row">
-              {/* <div className="col-xxl-4 col-xl-4 col-lg-0 col-md-0">
-                <div className="service__img-wrapper">
-                  <Image
-                    priority
-                    width={280}
-                    style={{ height: "auto" }}
-                    src={doorTodoor}
-                    alt="Service Image"
-                    className={
-                      activeImg == 1
-                        ? "service__img img-1 active"
-                        : "service__img img-1"
-                    }
-                  />
-                  <Image
-                    priority
-                    width={280}
-                    style={{ height: "auto" }}
-                    src={Service12}
-                    alt="Service Image"
-                    className={
-                      activeImg == 2
-                        ? "service__img img-2 active"
-                        : "service__img img-2"
-                    }
-                  />
-                  <Image
-                    priority
-                    width={280}
-                    style={{ height: "auto" }}
-                    src={Service13}
-                    alt="Service Image"
-                    className={
-                      activeImg == 3
-                        ? "service__img img-3 active"
-                        : "service__img img-3"
-                    }
-                  />
-                  <Image
-                    priority
-                    width={280}
-                    style={{ height: "auto" }}
-                    src={Service14}
-                    alt="Service Image"
-                    className={
-                      activeImg == 4
-                        ? "service__img img-4 active"
-                        : "service__img img-4"
-                    }
-                  />
-
-                  <span
-                    className={
-                      activeShape == 1
-                        ? "shapes shape-box-1 current"
-                        : "shapes shape-box-1"
-                    }
-                  ></span>
-                  <span
-                    className={
-                      activeShape == 2
-                        ? "shapes shape-box-2 current"
-                        : "shapes shape-box-2"
-                    }
-                  ></span>
-                  <span
-                    className={
-                      activeShape == 3
-                        ? "shapes shape-box-3 current"
-                        : "shapes shape-box-3"
-                    }
-                  ></span>
-                  <span
-                    className={
-                      activeShape == 4
-                        ? "shapes shape-box-4 current"
-                        : "shapes shape-box-4"
-                    }
-                  ></span>
-                </div>
-              </div> */}
               <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12">
                 <div className="service__list" ref={serviceList}>
                   <Link
-                    href="/door-to-door"
+                    href="/service/door-to-door"
                     className={activeList == 1 ? "active" : ""}
                     data-service="1"
                   >
@@ -237,14 +155,14 @@ const ServiceSection = () => {
                       </div>
                       <div className="service__title-wrapper">
                         <h4 className="service__title">
-                          Door-to-Door Sea and Air Shipping
+                          Door-to-Door Shipping
                         </h4>
                       </div>
                       <div className="service__text">
                         <p>
-                          Hassle-free Door-to-Door shipping with all-inclusive,
-                          customizable logistics—perfect for busy teams needing
-                          efficient freight.
+                          We help you plan and manage full-service shipping — by
+                          air or sea — from pickup to final delivery, using
+                          vetted global agents.
                         </p>
                       </div>
                       <div className="service__link">
@@ -255,7 +173,7 @@ const ServiceSection = () => {
                     </div>
                   </Link>
                   <Link
-                    href="/exw-shipping"
+                    href="/service/exw-shipping"
                     className={activeList == 3 ? "active" : ""}
                     data-service="3"
                   >
@@ -265,14 +183,14 @@ const ServiceSection = () => {
                       </div>
                       <div className="service__title-wrapper">
                         <h4 className="service__title">
-                          EXW Shipping with Origin-Side Support
+                          EXW {"(ExWorks)"} Shipping with Origin Support
                         </h4>
                       </div>
                       <div className="service__text">
                         <p>
-                          EXW gives you destination control; we handle pickup,
-                          export, and shipping—perfect for importers needing
-                          origin support.
+                          You control delivery. We assist with origin-side
+                          pickup, export paperwork, and choosing the right local
+                          agents.
                         </p>
                       </div>
                       <div className="service__link">
@@ -283,7 +201,7 @@ const ServiceSection = () => {
                     </div>
                   </Link>
                   <Link
-                    href="/flexible-fob-shipping"
+                    href="/service/flexible-fob-shipping"
                     className={activeList == 2 ? "active" : ""}
                     data-service="2"
                   >
@@ -299,9 +217,9 @@ const ServiceSection = () => {
                       </div>
                       <div className="service__text">
                         <p>
-                          FOB shipping lets you manage local logistics while we
-                          securely handle international port-to-port or airport
-                          transport.
+                          We guide you in splitting responsibilities between you
+                          and the supplier — while securing reliable
+                          port-to-port partners.
                         </p>
                       </div>
                       <div className="service__link">
@@ -313,7 +231,7 @@ const ServiceSection = () => {
                   </Link>
 
                   <Link
-                    href="/additional-services"
+                    href="/service/additional-services"
                     className={activeList == 4 ? "active" : ""}
                     data-service="4"
                   >
@@ -323,14 +241,13 @@ const ServiceSection = () => {
                       </div>
                       <div className="service__title-wrapper">
                         <h4 className="service__title">
-                          Reliable Customs & Transport Solutions
+                          Customs & Transport Solutions
                         </h4>
                       </div>
                       <div className="service__text">
                         <p>
-                          We provide customs clearance and transport, ensuring
-                          smooth, compliant, timely delivery with tailored
-                          vehicle solutions.
+                          We help you avoid customs delays and last-mile issues
+                          through smart planning and trusted local handlers.
                         </p>
                       </div>
                       <div className="service__link">

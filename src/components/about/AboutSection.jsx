@@ -45,23 +45,23 @@ const AboutSection = () => {
               <div className="sec-title-wrapper">
                 <h2 className="sec-sub-title title-anim">Who We Are</h2>
                 <h3 className="sec-title title-anim">
-                  Shipping Sucks. We Fix It.
+                  Shipping Isn’t Complicated. People Just Make It That Way.
                 </h3>
               </div>
               <div className="sec-text-wrapper">
                 <div className="sec-text text-anim">
-                  <p className="py-0 my-0">
-                    SABIT was built to solve a frustrating truth: Most
-                    suppliers, freight forwarders or shippers overpromise,
-                    underdeliver, and vanish when things go wrong.
-                  </p>
+                  <p className="py-0 my-0">- Tired of...</p>
+                  <p className="py-0 my-0">- Slow updates?</p>
+                  <p className="py-0 my-0">- Incompetent agents?</p>
+                  <p className="py-0 my-0">- Always following up?</p>
+                  <p className="py-0 my-0">- Customs problems?</p>
                   <h5 className="mt-4 mb-2 text-white">
-                    We do it differently.
+                    That’s why SABIT exists.
                   </h5>
                   <p className="py-0 my-0">
-                    SABIT was built to solve a frustrating truth: Most
-                    suppliers, freight forwarders or shippers overpromise,
-                    underdeliver, and vanish when things go wrong.
+                    We’re an independent freight advisory with 40+ years of
+                    experience. We connect you with vetted agents — and support
+                    you from start to finish.
                   </p>
                   <div className="btn_wrapper">
                     <Link

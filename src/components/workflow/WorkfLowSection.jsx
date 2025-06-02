@@ -70,8 +70,11 @@ const WorkflowSection = () => {
                     <div className="workflow__slide fade_left">
                       <h4 className="workflow__step">step 01</h4>
                       <h5 className="workflow__number">01</h5>
-                      <h6 className="workflow__title">Audience</h6>
-                      <p>Having these the marketplace to your business</p>
+                      <h6 className="workflow__title">Fill Out a Quick Form</h6>
+                      <p>
+                        Tell us about your shipment, challenges, and needs. It
+                        takes less than 2 minutes.
+                      </p>
                     </div>
                   </SwiperSlide>
 
@@ -79,9 +82,10 @@ const WorkflowSection = () => {
                     <div className="workflow__slide fade_left">
                       <h4 className="workflow__step">step 02</h4>
                       <h5 className="workflow__number">02</h5>
-                      <h6 className="workflow__title">Plan & Sketch</h6>
+                      <h6 className="workflow__title">Book a Free Call</h6>
                       <p>
-                        Delicate and long-lasting with vitamins and nutritions
+                        Speak with our advisory team. If we can help, we’ll
+                        recommend the next steps.
                       </p>
                     </div>
                   </SwiperSlide>
@@ -90,9 +94,10 @@ const WorkflowSection = () => {
                     <div className="workflow__slide fade_left">
                       <h4 className="workflow__step">step 03</h4>
                       <h5 className="workflow__number">03</h5>
-                      <h6 className="workflow__title">Customize</h6>
+                      <h6 className="workflow__title">Trusted Logistics</h6>
                       <p>
-                        Creating brand identities for the digital experiences
+                        We connect you with a pre-screened, experienced freight
+                        agent suited to your needs.
                       </p>
                     </div>
                   </SwiperSlide>

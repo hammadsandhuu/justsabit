@@ -105,7 +105,7 @@ const DisclaimerSection = () => {
             <SwiperSlide key={index}>
               <div className="portfolio__slide-2">
                 <div className="slide-img">
-                  <Link href="/portfolio-details">
+                  <Link href="#">
                     <Image
                       priority
                       style={{ width: "100%", height: "auto" }}
@@ -116,7 +116,7 @@ const DisclaimerSection = () => {
                 </div>
                 <div className="slide-content">
                   <h5 className="sec-title w-50 ">
-                    <Link href="/portfolio-details">{item.title}</Link>
+                    <Link href="#">{item.title}</Link>
                   </h5>
                   <p>{item.content}</p>
                 </div>

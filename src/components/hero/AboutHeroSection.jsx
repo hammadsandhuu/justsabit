@@ -18,8 +18,8 @@ const AboutHeroSection = () => {
             <div className="col-xxl-12">
               <div className="hero__about-content">
                 <h1 className="hero-title animation__word_come" ref={wordAnim}>
-                  Fixing­ Freight­ Forwarding­ with­ Clarity,­ Care,­ and­ a­
-                  Human­ Touch
+                  Fixing Freight Forwarding with Clarity, Care, and a Human
+                  Touch
                 </h1>
                 <div className="hero__about-info">
                   <div className="hero__about-btn">
@@ -37,7 +37,7 @@ const AboutHeroSection = () => {
                   <div className="hero__about-text title-anim">
                     <p>
                       {
-                        "Shipping shouldn’t be a gamble. At SABIT, we simplify logistics with reliability, transparency, and personalized support you can count on—no matter where or what you ship."
+                        "Shipping shouldn't be a gamble. At SABIT, we simplify global logistics by helping you choose the right agents, avoid mistakes, and stay in control.No guesswork. No chasing.Just real-world support you can trust — wherever and whatever you ship."
                       }
                     </p>
                   </div>

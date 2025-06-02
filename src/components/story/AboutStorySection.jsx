@@ -17,32 +17,29 @@ const AboutStorySection = () => {
 
             <div className="row">
               <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
-                <h2 className="sec-sub-title title-anim">Digital Studio</h2>
+                <h2 className="sec-sub-title title-anim">About</h2>
                 <h3 className="sec-title title-anim">Our story</h3>
               </div>
               <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
                 <div className="story__text">
                   <p className="py-0 my-0">
-                    SABIT was built to solve a frustrating truth: Most
-                    suppliers, freight forwarders or shippers overpromise,
-                    underdeliver, and vanish when things go wrong.
+                    SABIT was built to fix a frustrating truth: Most freight
+                    agents overpromise, underdeliver — and disappear when things
+                    go wrong.
                   </p>
                   <h5 className="mt-4 mb-2 text-white">
                     We do it differently.
                   </h5>
                   <p className="py-0 my-0">
-                    SABIT is your trust logistics advisor – a boutique,
-                    high-touch freight support platform that equips you with
-                    confidence, full visibility, and control at every step of
-                    your supply chain.
+                    We’re a boutique freight advisory platform that gives you
+                    clarity, control, and direct access to proven agents.
                   </p>
                   <h5 className="mt-4 mb-2 text-white">
                     We don’t just book shipments.
                   </h5>
                   <p className="py-0 my-0">
-                    We work with a curated network of vetted agents worldwide to
-                    ensure nothing falls through the cracks – from pickup to
-                    final delivery.
+                    We connect you to trusted logistics professionals and help
+                    you avoid the mistakes most companies don’t see coming.
                   </p>
                 </div>
               </div>
@@ -50,20 +47,21 @@ const AboutStorySection = () => {
             <div className="row mt-5">
               <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
                 <h2 className="sec-sub-title title-anim">Why</h2>
-                <h3 className="sec-title title-anim">SABIT Exist?</h3>
+                <h3 className="sec-title title-anim">SABIT Exists?</h3>
               </div>
               <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
                 <div className="story__text">
                   <p>
-                    Our founder created SABIT after seeing the complexities
-                    around shipments being delayed, mishandled, and just how
-                    much stress clients were coping with from such poor quality
-                    standards. We knew it was time to fix freight forwarding for
-                    clients who genuinely deserve more.
+                    Our founder saw how often shipments were delayed,
+                    mishandled, or miscommunicated — even by big names. Clients
+                    were chasing updates. Paying for mistakes. Left in the dark.
+                    SABIT was created to give those clients the support they
+                    actually deserve.
                   </p>
                 </div>
               </div>
             </div>
+
             <div className="row mt-5">
               <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
                 <h2 className="sec-sub-title title-anim">What Makes</h2>
@@ -71,19 +69,31 @@ const AboutStorySection = () => {
               </div>
               <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
                 <div className="story__text">
-                  <p>
-                    Boutique Touch: You’re not another number, or another
-                    shipment. We reply fast, rely fast. We stay on top of
-                    updates and give proactive support and solutions – just how
-                    you expect. Global Reach, Local Care: We operate through
-                    vetted agents in China, USA, Europe, and GCC, managing
-                    customs, ports, and transportation – while you just deal
-                    with one expert point of contact. High Standard Clients,
-                    High Quality Results: We work with diplomats, luxury car
-                    owners, project managers, E-commerce brands, beauty brands,
-                    and companies who value service over shortcuts. No
-                    Guesswork: We guide you every step of the way, with clear
-                    answers, strategic oversight, and hands-on coordination.
+                  <h5 className="mt-4 mb-2 text-white">Boutique Support.</h5>
+                  <p className="py-0 my-0">
+                    You're not a number. We respond fast, stay on top of your
+                    shipments, and advise every step of the way.
+                  </p>
+                  <h5 className="mt-4 mb-2 text-white">
+                    Global Access. Local Control.
+                  </h5>
+                  <p className="py-0 my-0">
+                    We work through trusted agents across China, USA, Europe,
+                    and the GCC — while you deal with just one point of contact.
+                  </p>
+                  <h5 className="mt-4 mb-2 text-white">
+                    Built for High Standards.
+                  </h5>
+                  <p className="py-0 my-0">
+                    From diplomats to luxury auto dealers to project managers —
+                    we support those who can’t afford freight mistakes.
+                  </p>
+                  <h5 className="mt-4 mb-2 text-white">
+                    No Guesswork. Just Answers.
+                  </h5>
+                  <p className="py-0 my-0">
+                    You ask. We advise. With clarity, transparency, and a
+                    clear plan forward.
                   </p>
                 </div>
               </div>

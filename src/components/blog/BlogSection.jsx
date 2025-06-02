@@ -101,15 +101,15 @@ const BlogSection = ({ blogs }) => {
         <div className="row">
           <div className="col-xxl-12">
             <div className="sec-title-wrapper text-anim pt-130">
-              <h2 className="sec-sub-title">Recent Blog</h2>
+              <h2 className="sec-sub-title">The SABIT Perspectiv</h2>
               <h3 className="sec-title title-anim">
-                Read Updated <br />
-                Journal
+                Freight Insights That <br />
+                Actually Help
               </h3>
               <p>
-                Read our blog and try to see everything from every perspective.
-                Our passion lies in making everything accessible and aesthetic
-                for everyone.
+                We write what most logistics companies won't. Real answers.
+                Global trends. Smarter ways to move cargo. No fluff — just
+                clarity from 40+ years in the field.
               </p>
             </div>
           </div>

@@ -18,7 +18,7 @@ const HowItWorkSection = () => {
             <div className="col-xxl-12">
               <div className="hero__about-content">
                 <h1 className="hero-title animation__word_come" ref={wordAnim}>
-                  A Better Way to Ship : Clear, Caring, and Human
+                  A Simple 3-Step Process That Keeps You in Control
                 </h1>
                 <div className="hero__about-info">
                   <div className="hero__about-btn">

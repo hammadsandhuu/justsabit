@@ -48,7 +48,7 @@ export default function Header3() {
       <header className="header__area py-3" ref={headerArea}>
         <div className="header__inner">
           <div className="header__logo">
-            <Link href="/digital-marketing">
+            <Link href="/">
               <Image
                 priority
                 width={45}

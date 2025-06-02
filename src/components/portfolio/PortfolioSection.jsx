@@ -63,7 +63,7 @@ const PortfolioSection = () => {
                     <div className="portfolio__slide-3">
                       <Link href="/service-details">
                         <h3 className="portfolio__title-3">
-                          Benjon <span>Website</span> 2012
+                          Factory <span>Freight </span> Flow
                         </h3>
                         <Image
                           priority
@@ -79,7 +79,7 @@ const PortfolioSection = () => {
                     <div className="portfolio__slide-3">
                       <Link href="/">
                         <h3 className="portfolio__title-3">
-                          Benjon <span>Website</span> 2012
+                          Fresh <span>Load </span> Protocol
                         </h3>
                         <Image
                           priority
@@ -95,7 +95,7 @@ const PortfolioSection = () => {
                     <div className="portfolio__slide-3">
                       <Link href="/">
                         <h3 className="portfolio__title-3">
-                          Benjon <span>Website</span> 2012
+                          Portside <span>Precision</span> 2012
                         </h3>
                         <Image
                           priority
@@ -111,7 +111,7 @@ const PortfolioSection = () => {
                     <div className="portfolio__slide-3">
                       <Link href="/">
                         <h3 className="portfolio__title-3">
-                          Benjon <span>Website</span> 2012
+                          Heavy <span>Cargo </span>Move
                         </h3>
                         <Image
                           priority
@@ -127,7 +127,7 @@ const PortfolioSection = () => {
                     <div className="portfolio__slide-3">
                       <Link href="/">
                         <h3 className="portfolio__title-3">
-                          Benjon <span>Website</span> 2012
+                          Furniture <span>Equipment </span>Loadout
                         </h3>
                         <Image
                           priority
@@ -143,7 +143,7 @@ const PortfolioSection = () => {
                     <div className="portfolio__slide-3">
                       <Link href="/">
                         <h3 className="portfolio__title-3">
-                          Benjon <span>Website</span> 2012
+                          Diplomatic <span>Grade </span>Seal
                         </h3>
                         <Image
                           priority
@@ -159,7 +159,7 @@ const PortfolioSection = () => {
                     <div className="portfolio__slide-3">
                       <Link href="/">
                         <h3 className="portfolio__title-3">
-                          Benjon <span>Website</span> 2012
+                          Protected <span>Auto</span>Haul
                         </h3>
                         <Image
                           priority
@@ -175,7 +175,7 @@ const PortfolioSection = () => {
                     <div className="portfolio__slide-3">
                       <Link href="/">
                         <h3 className="portfolio__title-3">
-                          Benjon <span>Website</span> 2012
+                          Single <span>Car </span>Load
                         </h3>
                         <Image
                           priority
@@ -191,7 +191,7 @@ const PortfolioSection = () => {
                     <div className="portfolio__slide-3">
                       <Link href="/">
                         <h3 className="portfolio__title-3">
-                          Benjon <span>Website</span> 2012
+                          Time <span>Critical</span> Air
                         </h3>
                         <Image
                           priority

@@ -9,16 +9,20 @@ const CTASection = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="cta__content">
-                <p className="cta__sub-title">Work with us</p>
+                <p className="cta__sub-title">
+                  Ready to Fix Your Freight Headaches?
+                </p>
                 <h2 className="cta__title title-anim">
-                  We would love to hear more about your project
+                  Talk to our advisory team. It’s free and fast <br /> — no
+                  pressure.
                 </h2>
                 <div className="btn_wrapper">
                   <Link
-                    href="/contact"
+                    href="https://tally.so/r/wb2851"
                     className="wc-btn-primary btn-hover btn-item"
+                    target="_blank"
                   >
-                    <span></span>Let’s talk us{" "}
+                    <span></span> Place <br /> your Shipment
                     <i className="fa-solid fa-arrow-right"></i>
                   </Link>
                 </div>

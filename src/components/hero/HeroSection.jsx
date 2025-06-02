@@ -72,7 +72,7 @@ const HeroSection = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="hero__content animation__hero_one">
-                <Link href="/service">
+                <Link href="https://tally.so/r/wb2851">
                   Talk to Our Advisory — Book Your Free 15-Min Call Now
                   <span>
                     <i className="fa-solid fa-arrow-right"></i>

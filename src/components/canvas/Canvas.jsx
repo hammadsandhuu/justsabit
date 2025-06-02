@@ -216,7 +216,9 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                   </li>
                   <li>
                     <div className="header_title">
-                      <Link href={"/contact"}>CONTACT</Link>
+                      <Link href="https://tally.so/r/wb2851" target="_blank">
+                        Pace your Shipment
+                      </Link>
                     </div>
                   </li>
                 </ul>

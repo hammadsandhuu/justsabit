@@ -35,8 +35,9 @@ export default function Footer3() {
                       alt="Footer Logo"
                     />
                     <p>
-                      When do they work well, and when do they on us and
-                      finally, when do we actually need how can we avoid them.
+                      Helping you choose the right agent, avoid costly mistakes,
+                      and ship with confidence. 40+ years of freight advisory,
+                      worldwide.
                     </p>
                     <ul className="footer__social">
                       <li>
@@ -80,17 +81,23 @@ export default function Footer3() {
                   <div className="footer__widget-2">
                     <h2 className="footer__widget-title">Information</h2>
                     <ul className="footer__link">
-                      <li>
-                        <Link href="/about">About Company</Link>
+                      {/* <li>
+                        <Link href="/">Home</Link>
                       </li>
                       <li>
-                        <Link href="/our-services">Services</Link>
+                        <Link href="/about">About</Link>
+                      </li> */}
+                      <li>
+                        <Link href="/Service">Services</Link>
                       </li>
                       <li>
-                        <Link href="/portfolio">Portfolio</Link>
+                        <Link href="/Service">Sectors</Link>
                       </li>
                       <li>
-                        <Link href="/blog">blog</Link>
+                        <Link href="/how-it-works">How It Works</Link>
+                      </li>
+                      <li>
+                        <Link href="/blog">Blogs</Link>
                       </li>
                       <li>
                         <Link href="/disclaimer">Disclaimer</Link>
@@ -127,8 +134,8 @@ export default function Footer3() {
                         <i className="fa-solid fa-arrow-right"></i>
                       </Link>
                     </div>
-                    <h3 className="contact-time">09 : 00 AM - 10 : 30 PM</h3>
-                    <h4 className="contact-day">Saturday - Thursday</h4>
+                    {/* <h3 className="contact-time">09 : 00 AM - 10 : 30 PM</h3>
+                    <h4 className="contact-day">Saturday - Thursday</h4> */}
                   </div>
 
                   <div className="footer__copyright">

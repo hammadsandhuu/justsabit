@@ -23,126 +23,126 @@ const servicesData = [
       "Time-saving process",
     ],
   },
-  {
-    id: 2,
-    img: Service22,
-    title: "Luxury Automotive",
-    description:
-      "Boutique logistics for dealerships, manufacturers, and private collectors — from global vehicle shipping to local fleet moves.",
-    list: [
-      "Global vehicle shipping",
-      "Fleet management",
-      "Collector car transport",
-      "Custom logistics plans",
-      "Secure handling",
-      "Timely delivery",
-    ],
-  },
-  {
-    id: 3,
-    img: Service23,
-    title: "Diplomatic Missions",
-    description:
-      "Secure, discreet supply chain solutions built to support diplomatic, consular, and government agency needs.",
-    list: [
-      "High security protocols",
-      "Confidential handling",
-      "Government compliance",
-      "Discreet transport",
-      "24/7 monitoring",
-      "Trusted partnerships",
-    ],
-  },
-  {
-    id: 4,
-    img: Service21,
-    title: "Hospitality Groups",
-    description:
-      "End-to-end freight expertise for global hotel brands, luxury resorts, and boutique hospitality properties.",
-    list: [
-      "Luxury item handling",
-      "Customs clearance",
-      "Global delivery network",
-      "White-glove service",
-      "Inventory management",
-      "On-time shipments",
-    ],
-  },
-  {
-    id: 5,
-    img: Service22,
-    title: "Mega Projects",
-    description:
-      "Scalable, compliant logistics systems designed for high-volume infrastructure, construction, and energy developments.",
-    list: [
-      "Infrastructure logistics",
-      "High-volume shipments",
-      "Energy sector expertise",
-      "Regulatory compliance",
-      "Project planning",
-      "Risk management",
-    ],
-  },
-  {
-    id: 6,
-    img: Service23,
-    title: "Oil & Gas",
-    description:
-      "Logistics expertise for fuels, lubricants, and critical energy supply chains.",
-    list: [
-      "Fuel transport",
-      "Lubricant logistics",
-      "Critical supply chains",
-      "Safety protocols",
-      "Emergency response",
-      "Regulatory adherence",
-    ],
-  },
-  {
-    id: 7,
-    img: Service21,
-    title: "Food & Commodities",
-    description:
-      "We move rice, packaged foods, perishables, and FMCG products with precision and care.",
-    list: [
-      "Perishable goods handling",
-      "FMCG transport",
-      "Temperature-controlled shipping",
-      "Quality assurance",
-      "Timely deliveries",
-      "Supply chain monitoring",
-    ],
-  },
-  {
-    id: 8,
-    img: Service22,
-    title: "Furniture & Fixtures",
-    description:
-      "White-glove transport and consolidation services for furniture brands, suppliers, and interior projects.",
-    list: [
-      "White-glove delivery",
-      "Consolidation services",
-      "Fragile item handling",
-      "Custom packaging",
-      "Inventory tracking",
-      "On-site assembly support",
-    ],
-  },
-  {
-    id: 9,
-    img: Service23,
-    title: "Materials & Manufacturing",
-    description:
-      "Logistics for raw materials, chemicals, tech infrastructure, and packaging components.",
-    list: [
-      "Raw materials transport",
-      "Chemical logistics",
-      "Packaging components",
-      "Supply chain optimization",
-      "Inventory management",
-      "Quality control",
-    ],
-  },
+  // {
+  //   id: 2,
+  //   img: Service22,
+  //   title: "Luxury Automotive",
+  //   description:
+  //     "Boutique logistics for dealerships, manufacturers, and private collectors — from global vehicle shipping to local fleet moves.",
+  //   list: [
+  //     "Global vehicle shipping",
+  //     "Fleet management",
+  //     "Collector car transport",
+  //     "Custom logistics plans",
+  //     "Secure handling",
+  //     "Timely delivery",
+  //   ],
+  // },
+  // {
+  //   id: 3,
+  //   img: Service23,
+  //   title: "Diplomatic Missions",
+  //   description:
+  //     "Secure, discreet supply chain solutions built to support diplomatic, consular, and government agency needs.",
+  //   list: [
+  //     "High security protocols",
+  //     "Confidential handling",
+  //     "Government compliance",
+  //     "Discreet transport",
+  //     "24/7 monitoring",
+  //     "Trusted partnerships",
+  //   ],
+  // },
+  // {
+  //   id: 4,
+  //   img: Service21,
+  //   title: "Hospitality Groups",
+  //   description:
+  //     "End-to-end freight expertise for global hotel brands, luxury resorts, and boutique hospitality properties.",
+  //   list: [
+  //     "Luxury item handling",
+  //     "Customs clearance",
+  //     "Global delivery network",
+  //     "White-glove service",
+  //     "Inventory management",
+  //     "On-time shipments",
+  //   ],
+  // },
+  // {
+  //   id: 5,
+  //   img: Service22,
+  //   title: "Mega Projects",
+  //   description:
+  //     "Scalable, compliant logistics systems designed for high-volume infrastructure, construction, and energy developments.",
+  //   list: [
+  //     "Infrastructure logistics",
+  //     "High-volume shipments",
+  //     "Energy sector expertise",
+  //     "Regulatory compliance",
+  //     "Project planning",
+  //     "Risk management",
+  //   ],
+  // },
+  // {
+  //   id: 6,
+  //   img: Service23,
+  //   title: "Oil & Gas",
+  //   description:
+  //     "Logistics expertise for fuels, lubricants, and critical energy supply chains.",
+  //   list: [
+  //     "Fuel transport",
+  //     "Lubricant logistics",
+  //     "Critical supply chains",
+  //     "Safety protocols",
+  //     "Emergency response",
+  //     "Regulatory adherence",
+  //   ],
+  // },
+  // {
+  //   id: 7,
+  //   img: Service21,
+  //   title: "Food & Commodities",
+  //   description:
+  //     "We move rice, packaged foods, perishables, and FMCG products with precision and care.",
+  //   list: [
+  //     "Perishable goods handling",
+  //     "FMCG transport",
+  //     "Temperature-controlled shipping",
+  //     "Quality assurance",
+  //     "Timely deliveries",
+  //     "Supply chain monitoring",
+  //   ],
+  // },
+  // {
+  //   id: 8,
+  //   img: Service22,
+  //   title: "Furniture & Fixtures",
+  //   description:
+  //     "White-glove transport and consolidation services for furniture brands, suppliers, and interior projects.",
+  //   list: [
+  //     "White-glove delivery",
+  //     "Consolidation services",
+  //     "Fragile item handling",
+  //     "Custom packaging",
+  //     "Inventory tracking",
+  //     "On-site assembly support",
+  //   ],
+  // },
+  // {
+  //   id: 9,
+  //   img: Service23,
+  //   title: "Materials & Manufacturing",
+  //   description:
+  //     "Logistics for raw materials, chemicals, tech infrastructure, and packaging components.",
+  //   list: [
+  //     "Raw materials transport",
+  //     "Chemical logistics",
+  //     "Packaging components",
+  //     "Supply chain optimization",
+  //     "Inventory management",
+  //     "Quality control",
+  //   ],
+  // },
   {
     id: 10,
     img: Service21, // reuse existing image or replace if you have a new one
