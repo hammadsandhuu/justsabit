@@ -6,8 +6,10 @@ import logoWhite2 from "../../../public/assets/imgs/logo/logo1.png";
 import Shape11 from "../../../public/assets/imgs/shape/11.png";
 import Shape12 from "../../../public/assets/imgs/shape/12.png";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
+  const router = useRouter();
   const [accordion, setAccordion] = useState(0);
   const [subAccordion, setSubAccordion] = useState(0);
   const headerTitle = useRef();
@@ -116,18 +118,105 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                     </div>
                   </li>
                   <li>
+                    <div className="header_title d-flex">
+                      <Link href={"/service"}>SERVICES</Link>
+                      <div className="accordian-btn">
+                        {accordion === 3 ? (
+                          <a onClick={() => openData(0)}>-</a>
+                        ) : (
+                          <a onClick={() => openData(3)}>+</a>
+                        )}
+                      </div>
+                    </div>
+                    <ul
+                      className="sub_title"
+                      style={
+                        accordion === 3 ? { display: "" } : { display: "none" }
+                      }
+                    >
+                      <li>
+                        <Link href={"/service/door-to-door"}>Door-to-Door</Link>
+                      </li>
+                      <li>
+                        <Link href={"/service/flexible-fob-shipping"}>
+                          Flexible FOB Shipping
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href={"/service/exw-shipping"}>EXW Shipping</Link>
+                      </li>
+                      <li>
+                        <Link href={"/service/additional-services"}>
+                          Relable custom & transpotion services
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <div className="header_title d-flex">
+                      <Link href={"/service"}>SECTORS</Link>
+                      <div className="accordian-btn">
+                        {accordion === 4 ? (
+                          <a onClick={() => openData(0)}>-</a>
+                        ) : (
+                          <a onClick={() => openData(4)}>+</a>
+                        )}
+                      </div>
+                    </div>
+                    <ul
+                      className="sub_title"
+                      style={
+                        accordion === 4 ? { display: "" } : { display: "none" }
+                      }
+                    >
+                      <li>
+                        <Link href={"/service/luxury-automotive"}>
+                          Luxury Automotive
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href={"/service/diplomatic-missions"}>
+                          Diplomatic Missions
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href={"/service/hospitality-groups"}>
+                          Hospitality Groups
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href={"/service/mega-projects"}>
+                          Mega Projects
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href={"/service/oil-and-gas"}>Oil & Gas</Link>
+                      </li>
+                      <li>
+                        <Link href={"/service/food-and-commodities"}>
+                          Food & Commodities
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href={"/service/furniture-and-fixtures"}>
+                          Furniture & Fixtures
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href={"/service/materials-and-manufacturing"}>
+                          Materials & Manufacturing
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
                     <div className="header_title">
-                      <Link href={"/projects"}>PROJECTS</Link>
+                      <Link href={"/blog"}>BLOGS</Link>
                     </div>
                   </li>
                   <li>
                     <div className="header_title">
-                      <Link href={"/blog"}>BLOG</Link>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="header_title">
-                      <Link href={"/contact"}>Place your Shipment</Link>
+                      <Link href={"/contact"}>CONTACT</Link>
                     </div>
                   </li>
                 </ul>

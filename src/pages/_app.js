@@ -11,13 +11,7 @@ config.autoAddCss = false;
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <NextTopLoader
-        color="#c9f31d"
-        showSpinner={false}
-        height={3}
-        crawlSpeed={200}
-        easing="ease"
-      />
+      <NextTopLoader color="#c9f31d" height={3} />
       <Component {...pageProps} />
     </>
   );

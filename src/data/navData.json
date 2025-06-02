@@ -19,19 +19,19 @@
       "sub_nav": [
         {
           "name": "Door-to-Door",
-          "link": "/door-to-door"
+          "link": "/service/door-to-door"
         },
         {
           "name": "Flexible FOB Shipping",
-          "link": "/flexible-fob-shipping"
+          "link": "/service/flexible-fob-shipping"
         },
         {
           "name": "EXW Shipping",
-          "link": "/exw-shipping"
+          "link": "/service/exw-shipping"
         },
         {
           "name": "Relable custom & transpotion services",
-          "link": "/additional-services"
+          "link": "/service/additional-services"
         }
       ]
     },
