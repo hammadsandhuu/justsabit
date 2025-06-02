@@ -71,8 +71,8 @@ const AboutStorySection = () => {
                 <div className="story__text">
                   <h5 className="mt-4 mb-2 text-white">Boutique Support.</h5>
                   <p className="py-0 my-0">
-                    You're not a number. We respond fast, stay on top of your
-                    shipments, and advise every step of the way.
+                    {"You're"} not a number. We respond fast, stay on top of
+                    your shipments, and advise every step of the way.
                   </p>
                   <h5 className="mt-4 mb-2 text-white">
                     Global Access. Local Control.
@@ -86,7 +86,7 @@ const AboutStorySection = () => {
                   </h5>
                   <p className="py-0 my-0">
                     From diplomats to luxury auto dealers to project managers —
-                    we support those who can’t afford freight mistakes.
+                    we support those who {"can’t"} afford freight mistakes.
                   </p>
                   <h5 className="mt-4 mb-2 text-white">
                     No Guesswork. Just Answers.

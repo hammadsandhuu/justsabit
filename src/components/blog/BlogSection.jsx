@@ -107,7 +107,7 @@ const BlogSection = ({ blogs }) => {
                 Actually Help
               </h3>
               <p>
-                We write what most logistics companies won't. Real answers.
+                We write what most logistics companies {"won't"}. Real answers.
                 Global trends. Smarter ways to move cargo. No fluff — just
                 clarity from 40+ years in the field.
               </p>
