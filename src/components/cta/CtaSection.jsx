@@ -13,7 +13,7 @@ const CTASection = () => {
                   Ready to Fix Your Freight Headaches?
                 </p>
                 <h2 className="cta__title title-anim">
-                  Talk to our advisory team. It’s free and fast <br /> — no
+                  Talk to our advisory team. It’s free and fast <br /> no
                   pressure.
                 </h2>
                 <div className="btn_wrapper">
@@ -22,7 +22,7 @@ const CTASection = () => {
                     className="wc-btn-primary btn-hover btn-item"
                     target="_blank"
                   >
-                    <span></span> Place <br /> your Shipment
+                    <span></span> Book Free <br /> 15-Minute Call
                     <i className="fa-solid fa-arrow-right"></i>
                   </Link>
                 </div>

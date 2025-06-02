@@ -158,7 +158,7 @@ const FeatureSection = () => {
                       src={FeatureIcon5}
                       alt="Feature Icon"
                     />
-                    <h3 className="feature__title">Oil & Gass</h3>
+                    <h3 className="feature__title">Oil & Gas</h3>
                     <p>
                       Logistics expertise for fuels, lubricants, and critical
                       energy supply chains.
@@ -195,7 +195,7 @@ const FeatureSection = () => {
                   <div className="feature__item">
                     <Image
                       priority
-                      width={100}
+                      width={130}
                       height={100}
                       src={FeatureIcon8}
                       alt="Feature Icon"

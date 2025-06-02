@@ -41,7 +41,7 @@ const WorkflowSection = () => {
             <div className="col-xxl-12">
               <div className="sec-title-wrapper">
                 <h2 className="sec-sub-title title-anim">Workflow</h2>
-                <h3 className="sec-title title-anim">How we work</h3>
+                <h3 className="sec-title title-anim">How We Work</h3>
               </div>
             </div>
 

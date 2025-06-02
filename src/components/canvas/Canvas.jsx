@@ -154,7 +154,7 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                   </li>
                   <li>
                     <div className="header_title d-flex">
-                      <Link href={"/service"}>SECTORS</Link>
+                      <Link href={"/service/sectors"}>SECTORS</Link>
                       <div className="accordian-btn">
                         {accordion === 4 ? (
                           <a onClick={() => openData(0)}>-</a>
@@ -217,7 +217,7 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                   <li>
                     <div className="header_title">
                       <Link href="https://tally.so/r/wb2851" target="_blank">
-                        Pace your Shipment
+                        Place your Shipment
                       </Link>
                     </div>
                   </li>

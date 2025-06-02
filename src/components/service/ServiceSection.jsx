@@ -108,11 +108,11 @@ const ServiceSection = () => {
           <div className="row">
             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
               <div className="sec-title-wrapper wrap">
-                <h2 className="sec-sub-title title-anim">
+                {/* <h2 className="sec-sub-title title-anim">
                   {"Don't"} Believe Us?
-                </h2>
+                </h2> */}
                 <h3 className="sec-title title-anim">
-                  {"What "} - <br /> We Help
+                  {"What "} - <br /> We Help With
                 </h3>
               </div>
             </div>
