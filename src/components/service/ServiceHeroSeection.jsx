@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import Image from "next/image";
 import animationCharCome from "@/lib/utils/animationCharCome";
+import Link from "next/link";
 
 const ServiceHeroSection = ({
   title,
@@ -24,6 +25,15 @@ const ServiceHeroSection = ({
               <h2 className="sec-title animation__char_come" ref={charAnim}>
                 {title}
               </h2>
+            </div>
+            <div className="btn_wrapper pleft">
+              <Link
+                href="/contact"
+                className="wc-btn-primary btn-hover btn-item"
+              >
+                <span></span> Book Free <br /> 15-Minute Call
+                <i className="fa-solid fa-arrow-right"></i>
+              </Link>
             </div>
           </div>
           <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7">

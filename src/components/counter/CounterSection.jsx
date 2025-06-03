@@ -11,7 +11,7 @@ const CounterSection = () => {
 
       const counters = [
         { selector: ".count1", end: 98, suffix: "%" },
-        { selector: ".count2", end: 10, suffix: "k+" },
+        { selector: ".count2", end: 100, suffix: "k+" },
         { selector: ".count3", end: 72, suffix: "%" },
         { selector: ".count4", end: 40, suffix: "+" },
       ];
@@ -116,9 +116,9 @@ const CounterSection = () => {
               <div className="counter__item counter__anim">
                 <h2 className="counter__number count4">0+</h2>
                 <p>
-                  Years
+                  Years Of
                   <br />
-                  Of Freight Advisory Experience
+                  Freight Advisory Experience
                 </p>
                 <span className="counter__border"></span>
               </div>

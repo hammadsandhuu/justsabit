@@ -112,7 +112,7 @@ const ServiceSection = () => {
                   {"Don't"} Believe Us?
                 </h2> */}
                 <h3 className="sec-title title-anim">
-                  {"What "} - <br /> We Help With
+                  {"What "} <br /> We Help With
                 </h3>
               </div>
             </div>

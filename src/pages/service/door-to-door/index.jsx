@@ -82,30 +82,31 @@ const Index = () => {
   };
   const workflowSteps = [
     {
-      titleLine1: "Planning and",
-      titleLine2: "sketching",
+      titleLine1: "Discovery and",
+      titleLine2: "Requirements",
       description:
-        "Modern and unique design practically point of view, it risks not meeting the huge expectations",
+        "We start with a consultation to understand your shipping needs—whether it's fragile, oversized, or time-sensitive cargo. This ensures we build the right logistics solution for you.",
     },
     {
-      titleLine1: "Team",
-      titleLine2: "working",
+      titleLine1: "Pickup and",
+      titleLine2: "Preparation",
       description:
-        "Modern and unique design practically point of view, it risks not meeting the huge expectations",
+        "Our team coordinates pickup from your location and ensures proper packaging, labeling, and documentation are in place, including any special handling instructions.",
     },
     {
-      titleLine1: "Flowchart and",
-      titleLine2: "wireframe",
+      titleLine1: "Customs and",
+      titleLine2: "International Shipping",
       description:
-        "Modern and unique design practically point of view, it risks not meeting the huge expectations",
+        "We handle all customs clearance and regulatory compliance, then manage the air or sea shipping with reliable partners, providing real-time updates.",
     },
     {
-      titleLine1: "User experience",
-      titleLine2: "Testing",
+      titleLine1: "Final Delivery and",
+      titleLine2: "Confirmation",
       description:
-        "Modern and unique design practically point of view, it risks not meeting the huge expectations",
+        "Once your shipment arrives at the destination port, we handle last-mile delivery and confirm successful handoff—ensuring a seamless, end-to-end experience.",
     },
   ];
+  
 
   return (
     <>

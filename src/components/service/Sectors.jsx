@@ -5,6 +5,7 @@ import Service21 from "../../../public/assets/imgs/service/2/1.png";
 import Service22 from "../../../public/assets/imgs/service/2/2.png";
 import Service23 from "../../../public/assets/imgs/service/2/3.png";
 import Image from "next/image";
+import Link from "next/link";
 
 gsap.registerPlugin(ScrollTrigger);
 const servicesData = [
@@ -130,7 +131,6 @@ const servicesData = [
   },
 ];
 
-
 const Sectors = () => {
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -196,6 +196,15 @@ const Sectors = () => {
                   campaigns to enable stable and successful relationships
                   between businesses and customers.
                 </p>
+                <div className="btn_wrapper">
+                  <Link
+                    href="/contact"
+                    className="wc-btn-primary btn-hover btn-item"
+                  >
+                    <span></span> Book Free <br /> 15-Minute Call
+                    <i className="fa-solid fa-arrow-right"></i>
+                  </Link>
+                </div>
               </div>
             </div>
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
