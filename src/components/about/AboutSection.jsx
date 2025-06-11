@@ -50,7 +50,6 @@ const AboutSection = () => {
               </div>
               <div className="sec-text-wrapper">
                 <div className="sec-text text-anim">
-                  <p className="py-0 my-0">- Tired of...</p>
                   <p className="py-0 my-0">- Slow updates?</p>
                   <p className="py-0 my-0">- Incompetent agents?</p>
                   <p className="py-0 my-0">- Always following up?</p>
