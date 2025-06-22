@@ -216,7 +216,10 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                   </li>
                   <li>
                     <div className="header_title">
-                      <Link href="https://tally.so/r/wb2851" target="_blank">
+                      <Link
+                        href="https://ship-with-sabit.vercel.app/"
+                        target="_blank"
+                      >
                         Place your Shipment
                       </Link>
                     </div>

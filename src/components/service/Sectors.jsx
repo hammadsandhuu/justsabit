@@ -198,7 +198,7 @@ const Sectors = () => {
                 </p>
                 <div className="btn_wrapper">
                   <Link
-                    href="/contact"
+                    href="/https://ship-with-sabit.vercel.app/"
                     className="wc-btn-primary btn-hover btn-item"
                   >
                     <span></span> Book Free <br /> 15-Minute Call

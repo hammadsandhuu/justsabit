@@ -18,8 +18,8 @@ const CTASection = () => {
                 </h2>
                 <div className="btn_wrapper">
                   <Link
-                    href="https://tally.so/r/wb2851"
-                    className="wc-btn-primary btn-hover btn-item"
+                    href="https://ship-with-sabit.vercel.app/"
+                    className="wc-btn-secondary btn-hover btn-item"
                     target="_blank"
                   >
                     <span></span> Book Free <br /> 15-Minute Call

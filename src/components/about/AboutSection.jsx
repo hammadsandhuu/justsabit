@@ -64,7 +64,7 @@ const AboutSection = () => {
                   </p>
                   <div className="btn_wrapper">
                     <Link
-                      className="wc-btn-light btn-hover btn-item"
+                      className="wc-btn-secondary btn-hover btn-item"
                       href="/about"
                     >
                       <span></span> Explore Us{" "}
