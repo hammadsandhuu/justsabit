@@ -141,7 +141,7 @@ export default function Footer3() {
 
                   <div className="footer__copyright">
                     <p>
-                      © 2010 - 2025 | Alrights reserved by{" "}
+                      © 2010 - 2025 | All rights reserved by
                       <a href="https://wealcoder.com/" target="_blank">
                         SABIT
                       </a>

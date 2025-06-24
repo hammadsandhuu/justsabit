@@ -124,7 +124,7 @@ const FurnitureAndFixtures = () => {
         <RootLayout header="header3" footer="footer3" defaultMode="dark">
           <ServiceHeroSection {...heroData} />
           <ServiceDetailsWorkflow steps={workflowSteps} />
-          <ServiceDetailSection {...serviceDetailData} />
+          {/* <ServiceDetailSection {...serviceDetailData} /> */}
           <ServiceDetailsFaq
             title={faqData.title}
             faqItems={faqData.faqItems}

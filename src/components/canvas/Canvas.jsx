@@ -73,19 +73,29 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
               <h3 className="social-title">Follow Us</h3>
               <ul>
                 <li>
-                  <a href="https://www.tiktok.com/@justsabit_">Tik Tok</a>
+                  <a href="https://www.tiktok.com/@justsabit" target="_blank">
+                    Tik Tok
+                  </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/justsabit">Instagram</a>
+                  <a href="https://www.instagram.com/justsabit" target="_blank">
+                    Instagram
+                  </a>
                 </li>
                 <li>
-                  <a href="https://facebook.com/itsSABIT">Facebook</a>
+                  <a href="https://facebook.com/itsSABIT" target="_blank">
+                    Facebook
+                  </a>
                 </li>
                 <li>
-                  <a href="https://x.com/justsabit?s=11">Twitter</a>
+                  <a href="https://x.com/justsabit?s=11" target="_blank">
+                    Twitter
+                  </a>
                 </li>
                 <li>
-                  <a href="https://www.youtube.com/@justsabit">YouTube</a>
+                  <a href="https://www.youtube.com/@justsabit" target="_blank">
+                    YouTube
+                  </a>
                 </li>
               </ul>
             </div>
@@ -95,10 +105,10 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                   <Link href="/about">About</Link>
                 </li>
                 <li>
-                  <Link href="/contact">contact</Link>
+                  <Link href="/contact">Contact</Link>
                 </li>
                 <li>
-                  <Link href="/blog">blog</Link>
+                  <Link href="/blog">Blog</Link>
                 </li>
               </ul>
             </div>
@@ -250,7 +260,7 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                 </li>
               </ul>
             </div>
-            <Image
+            {/* <Image
               priority
               style={{ width: "auto", height: "auto" }}
               src={Shape11}
@@ -263,7 +273,7 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
               src={Shape12}
               alt="shape"
               className="shape-2"
-            />
+            /> */}
           </div>
           <div className="offcanvas__close">
             <button type="button" onClick={closeCanvas}>
