@@ -93,28 +93,28 @@ const Index = () => {
   };
   const workflowSteps = [
     {
-      titleLine1: "Planning and",
-      titleLine2: "sketching",
+      titleLine1: "What's",
+      titleLine2: "Included",
       description:
-        "Modern and unique design practically point of view, it risks not meeting the huge expectations",
+        "Under FOB (Free on Board) terms, your supplier handles delivery to the origin port, and from there — our vetted agents take over. We manage the rest.",
     },
     {
-      titleLine1: "Team",
-      titleLine2: "working",
+      titleLine1: "Booking & ",
+      titleLine2: "Documentation",
       description:
-        "Modern and unique design practically point of view, it risks not meeting the huge expectations",
+        "Once you confirm your shipment details, we coordinate space with the right airline or steamship line. We also double-check all commercial documents to ensure compliance with export/import regulations.",
     },
     {
-      titleLine1: "Flowchart and",
-      titleLine2: "wireframe",
+      titleLine1: "International ",
+      titleLine2: "Freight Movement",
       description:
-        "Modern and unique design practically point of view, it risks not meeting the huge expectations",
+        "From the origin port to the destination port — our agents handle the entire shipping leg. Whether it’s an airfreight pallet or a full ocean container, we ensure secure, compliant movement with proactive updates throughout.",
     },
     {
-      titleLine1: "User experience",
-      titleLine2: "Testing",
+      titleLine1: "Real-Time ",
+      titleLine2: "Visibility",
       description:
-        "Modern and unique design practically point of view, it risks not meeting the huge expectations",
+        "You’ll receive timely tracking and shipping updates — including vessel/flight departure, arrival ETA, and any possible transit delays. Our goal is to keep you informed and in control at every step.",
     },
   ];
 

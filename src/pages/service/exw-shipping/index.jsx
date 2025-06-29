@@ -92,28 +92,28 @@ const Index = () => {
   };
   const workflowSteps = [
     {
-      titleLine1: "Planning and",
-      titleLine2: "sketching",
+      titleLine1: "Factory/Supplier ",
+      titleLine2: "Coordination",
       description:
-        "Modern and unique design practically point of view, it risks not meeting the huge expectations",
+        "We engage directly with your supplier to ensure your cargo is export-ready — confirming packaging, documentation, and any special handling needed (fragile, oversized, or time-sensitive).",
     },
     {
-      titleLine1: "Team",
-      titleLine2: "working",
+      titleLine1: "Inland Pickup &",
+      titleLine2: "Local Handling",
       description:
-        "Modern and unique design practically point of view, it risks not meeting the huge expectations",
+        "Whether it’s for airfreight or sea freight, our vetted agents handle secure pickup from the ExWorks location (factory/warehouse), and ensure smooth transport to the airport or seapo",
     },
     {
-      titleLine1: "Flowchart and",
-      titleLine2: "wireframe",
+      titleLine1: "Export Customs & ",
+      titleLine2: "Documentation",
       description:
-        "Modern and unique design practically point of view, it risks not meeting the huge expectations",
+        "We verify that all export documents (invoice, packing list, certificate of origin, etc.) meet the required standards. We assist where possible to avoid any unnecessary clearance delays — regardless of mode.",
     },
     {
-      titleLine1: "User experience",
-      titleLine2: "Testing",
+      titleLine1: "Freight to ",
+      titleLine2: "Port of Discharge",
       description:
-        "Modern and unique design practically point of view, it risks not meeting the huge expectations",
+        "We arrange and oversee the main leg of the journey — whether it’s an express airfreight shipment or a consolidated ocean container. You receive proactive updates until the cargo lands at the destination port.",
     },
   ];
 

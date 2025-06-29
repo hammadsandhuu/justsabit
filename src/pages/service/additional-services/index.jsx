@@ -87,28 +87,28 @@ const Index = () => {
   };
   const workflowSteps = [
     {
-      titleLine1: "Planning and",
-      titleLine2: "sketching",
+      titleLine1: "Strategic Route & ",
+      titleLine2: "Compliance Planning",
       description:
-        "Modern and unique design practically point of view, it risks not meeting the huge expectations",
+        "1. Strategic Route & Compliance Planning We assess your cargo and destination to recommend the optimal air or sea route — and prepare all customs documents in advance to avoid border delays.",
     },
     {
-      titleLine1: "Team",
-      titleLine2: "working",
+      titleLine1: "Partner & ",
+      titleLine2: "Fleet Coordination",
       description:
-        "Modern and unique design practically point of view, it risks not meeting the huge expectations",
+        "Whether it’s flatbeds, reefers, or smaller trucks, we assign the right vetted carrier for the job — ensuring your cargo reaches the port on time, every time.",
     },
     {
-      titleLine1: "Flowchart and",
-      titleLine2: "wireframe",
+      titleLine1: "Port & ",
+      titleLine2: "Terminal Interface",
       description:
-        "Modern and unique design practically point of view, it risks not meeting the huge expectations",
+        "Our on-ground agents coordinate directly at ports, supervising loading/unloading, and ensuring cargo is handled with care, especially sensitive or valuable goods.",
     },
     {
-      titleLine1: "User experience",
-      titleLine2: "Testing",
+      titleLine1: "Paperwork. ",
+      titleLine2: "Approvals. Peace of Mind.",
       description:
-        "Modern and unique design practically point of view, it risks not meeting the huge expectations",
+        "We handle compliance checks, clearance paperwork, and approvals — removing the friction so you can stay focused on what actually matters: your business.",
     },
   ];
 
