@@ -14,7 +14,7 @@ const BlogDetailSection = ({ blog }) => {
   
 
   return (
-    <section className="blog__detail">
+    <section className="blog__detail pb-100">
       <div className="container g-0 line pt-140">
         <span className="line-3"></span>
         <div className="row">

@@ -1,19 +1,20 @@
-import Head from "next/head";
 import RootLayout from "@/components/common/layout/RootLayout";
 import CTASection from "@/components/cta/CtaSection";
 import DisclaimerSection from "@/components/portfolio/disclaimer";
+import SEOHead from "@/components/common/SEOHead";
 
-const index = () => {
+const DisclaimerPage = () => {
   return (
     <>
-      <Head>
-        <title>Disclaimer</title>
-        <meta name="description" content="Blog V2 Dark Description" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
+      <SEOHead
+        title="Disclaimer | SABIT Global Shipping & Logistics"
+        description="Review SABIT’s legal disclaimer regarding liability, accuracy of information, and terms for using our global shipping and logistics website."
+        url="https://www.justsabit.com/disclaimer"
+        image="https://www.justsabit.com/assets/images/disclaimer-banner.jpg"
+      />
       <main>
         <RootLayout header="header3" footer="footer3" defaultMode="dark">
-          <DisclaimerSection/>
+          <DisclaimerSection />
           <CTASection />
         </RootLayout>
       </main>
@@ -21,4 +22,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default DisclaimerPage;

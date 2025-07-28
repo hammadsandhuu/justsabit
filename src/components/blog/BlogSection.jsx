@@ -19,6 +19,8 @@ const BlogItem = ({ image, category, date, title, link }) => {
                 className="image-box__item"
                 src={image}
                 alt="Blog Thumbnail"
+                width={1000}
+                height={1000}
               />
               <Image
                 priority
@@ -26,6 +28,8 @@ const BlogItem = ({ image, category, date, title, link }) => {
                 className="image-box__item"
                 src={image}
                 alt="Blog Thumbnail"
+                width={1000}
+                height={1000}
               />
             </div>
           </Link>
@@ -40,7 +44,7 @@ const BlogItem = ({ image, category, date, title, link }) => {
             </Link>
           </h5>
           <Link href={link} className="blog__btn">
-            Read More{" "}
+            Read More
             <span>
               <i className="fa-solid fa-arrow-right"></i>
             </span>

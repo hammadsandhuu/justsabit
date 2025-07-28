@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.justsabit.com/
+
+# Sitemaps
+Sitemap: https://www.justsabit.com/sitemap.xml

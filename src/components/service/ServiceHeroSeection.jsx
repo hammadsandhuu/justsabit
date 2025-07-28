@@ -28,7 +28,7 @@ const ServiceHeroSection = ({
             </div>
             <div className="btn_wrapper pleft">
               <Link
-                href="/https://ship-with-sabit.vercel.app/"
+                href="https://ship-with-sabit.vercel.app/"
                 className="wc-btn-primary btn-hover btn-item"
               >
                 <span></span> Book Free <br /> 15-Minute Call

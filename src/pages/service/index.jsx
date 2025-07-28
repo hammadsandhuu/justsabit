@@ -1,20 +1,23 @@
-import Head from "next/head";
 import RootLayout from "@/components/common/layout/RootLayout";
 import BrandSection from "@/components/brand/BrandSection";
 import CTASection from "@/components/cta/CtaSection";
 import Services from "@/components/service/Services";
+import SEOHead from "@/components/common/SEOHead";
+import { servicesData } from "@/data/services";
 
-const index = () => {
+const ServicesPage = () => {
   return (
     <>
-      <Head>
-        <title>our services</title>
-        <meta name="description" content="Service V3 Dark Description" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
+      <SEOHead
+        title="International Shipping Services | Freight Forwarding, Customs & Door-to-Door Logistics"
+        description="Explore SABIT Logistics' full range of global freight services — including air & sea cargo, customs clearance, EXW & FOB shipping, and door-to-door delivery."
+        url="https://www.justsabit.com/services"
+        image="https://www.justsabit.com/assets/images/services-cover.jpg"
+        keywords="freight forwarding, international shipping, customs clearance, door to door logistics, sea freight, air freight, ex works shipping, FOB shipping, import export logistics, global cargo services"
+      />
       <main>
         <RootLayout header="header3" footer="footer3" defaultMode="dark">
-          <Services />
+          <Services servicesData={servicesData} />
           <BrandSection />
           <CTASection />
         </RootLayout>
@@ -23,4 +26,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default ServicesPage;

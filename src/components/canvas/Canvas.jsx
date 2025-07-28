@@ -3,10 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import logoWhite2 from "../../../public/assets/imgs/logo/logo1.png";
-import Shape11 from "../../../public/assets/imgs/shape/11.png";
-import Shape12 from "../../../public/assets/imgs/shape/12.png";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import { servicesData } from "@/data/services";
+import { sectorsData } from "@/data/sectors";
 
 const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
   const router = useRouter();
@@ -144,27 +144,18 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                         accordion === 3 ? { display: "" } : { display: "none" }
                       }
                     >
-                      <li>
-                        <Link href={"/service/door-to-door"}>Door-to-Door</Link>
-                      </li>
-                      <li>
-                        <Link href={"/service/flexible-fob-shipping"}>
-                          Flexible FOB Shipping
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href={"/service/exw-shipping"}>EXW Shipping</Link>
-                      </li>
-                      <li>
-                        <Link href={"/service/additional-services"}>
-                          Relable custom & transpotion services
-                        </Link>
-                      </li>
+                      {servicesData.map((service) => (
+                        <li key={service.id}>
+                          <Link href={`/service/${service.slug}`}>
+                            {service.title}
+                          </Link>
+                        </li>
+                      ))}
                     </ul>
                   </li>
                   <li>
                     <div className="header_title d-flex">
-                      <Link href={"/service/sectors"}>SECTORS</Link>
+                      <Link href={"/service/sector"}>SECTORS</Link>
                       <div className="accordian-btn">
                         {accordion === 4 ? (
                           <a onClick={() => openData(0)}>-</a>
@@ -179,44 +170,13 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                         accordion === 4 ? { display: "" } : { display: "none" }
                       }
                     >
-                      <li>
-                        <Link href={"/service/luxury-automotive"}>
-                          Luxury Automotive
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href={"/service/diplomatic-missions"}>
-                          Diplomatic Missions
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href={"/service/hospitality-groups"}>
-                          Hospitality Groups
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href={"/service/mega-projects"}>
-                          Mega Projects
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href={"/service/oil-and-gas"}>Oil & Gas</Link>
-                      </li>
-                      <li>
-                        <Link href={"/service/food-and-commodities"}>
-                          Food & Commodities
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href={"/service/furniture-and-fixtures"}>
-                          Furniture & Fixtures
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href={"/service/materials-and-manufacturing"}>
-                          Materials & Manufacturing
-                        </Link>
-                      </li>
+                      {sectorsData.map((sector) => (
+                        <li key={sector.id}>
+                          <Link href={`/service/sector/${sector.slug}`}>
+                            {sector.title}
+                          </Link>
+                        </li>
+                      ))}
                     </ul>
                   </li>
                   <li>
@@ -255,25 +215,11 @@ const Canvas = ({ bladeMode = "", ofCanvasArea }) => {
                 </li>
                 <li>
                   <a href="mailto:advisory@justsabit.com">
-                    advisory@justsabit.com
+                    support@justsabit.com
                   </a>
                 </li>
               </ul>
             </div>
-            {/* <Image
-              priority
-              style={{ width: "auto", height: "auto" }}
-              src={Shape11}
-              alt="shape"
-              className="shape-1"
-            />
-            <Image
-              priority
-              style={{ width: "auto", height: "auto" }}
-              src={Shape12}
-              alt="shape"
-              className="shape-2"
-            /> */}
           </div>
           <div className="offcanvas__close">
             <button type="button" onClick={closeCanvas}>

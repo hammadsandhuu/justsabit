@@ -81,17 +81,11 @@ export default function Footer3() {
                   <div className="footer__widget-2">
                     <h2 className="footer__widget-title">Information</h2>
                     <ul className="footer__link">
-                      {/* <li>
-                        <Link href="/">Home</Link>
+                      <li>
+                        <Link href="/service">Services</Link>
                       </li>
                       <li>
-                        <Link href="/about">About</Link>
-                      </li> */}
-                      <li>
-                        <Link href="/Service">Services</Link>
-                      </li>
-                      <li>
-                        <Link href="/Service">Sectors</Link>
+                        <Link href="/sector">Sectors</Link>
                       </li>
                       <li>
                         <Link href="/how-it-works">How It Works</Link>
@@ -110,12 +104,12 @@ export default function Footer3() {
                     <ul className="footer__contact">
                       <li>
                         <a href="tel:02574328301" className="phone">
-                          (+02) 574 - 328 - 301{" "}
+                          (+02) 574 - 328 - 301
                         </a>
                       </li>
                       <li>
                         <a href="mailto:info@buildyexample.com">
-                          info@justsabit.com
+                          support@justsabit.com
                         </a>
                       </li>
                     </ul>
@@ -135,8 +129,6 @@ export default function Footer3() {
                         <i className="fa-solid fa-arrow-right"></i>
                       </Link>
                     </div>
-                    {/* <h3 className="contact-time">09 : 00 AM - 10 : 30 PM</h3>
-                    <h4 className="contact-day">Saturday - Thursday</h4> */}
                   </div>
 
                   <div className="footer__copyright">

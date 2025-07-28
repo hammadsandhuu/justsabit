@@ -9,51 +9,40 @@ import BlogSection from "@/components/blog/BlogSection";
 import CTASection from "@/components/cta/CtaSection";
 import CounterSection from "@/components/counter/CounterSection";
 import WorkflowSection from "@/components/workflow/WorkfLowSection";
-import BlogImg1 from "../../public/assets/imgs/blogs/7.png";
-import BlogImg2 from "../../public/assets/imgs/blogs/5.png";
 import TestimonialSection from "@/components/testimonial/TestimonialSection";
+import { blogs } from "@/data/blogs";
+import { generateSlug } from "@/lib/utils/generateSlug";
+import SEOHead from "@/components/common/SEOHead";
+import { servicesData } from "@/data/services";
 
-const DigitalAgency = () => {
-  const blogData = [
-    {
-      image: BlogImg1,
-      category: "Sabit Does",
-      date: "02 May 2019",
-      title:
-        "Understanding FOB (Free on Board): A Complete Guide for Importers",
-      link: "/blog/what-is-fob",
-    },
-    {
-      image: BlogImg2,
-      category: "Our Services",
-      date: "02 May 2019",
-      title: "Door-to-Door Shipping: The Easiest Way to Import Goods",
-      link: "/blog/what-is-door-to-door-shipping",
-    },
-  ];
+const Home = () => {
+  const blogData = blogs.map((blog) => ({
+    image: blog.mainImage,
+    category: blog.category,
+    date: blog.date,
+    title: blog.title,
+    link: `/blog/${blog.slug || generateSlug(blog.title)}`,
+  }));
+
   return (
-    <div>
-      <Head>
-        <title>Home - just-sabit</title>
-        <meta name="description" content="Digital Agency Description" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
+    <>
+      <SEOHead />
       <main>
         <RootLayout header="header1" footer="footer3" defaultMode="dark">
           <HeroSection />
           <AboutSection />
           <BrandSection />
-          <ServiceSection />
+          <ServiceSection serviceData={servicesData} />
           <CounterSection />
           <WorkflowSection />
           <PortfolioSection />
           <TestimonialSection />
-          <BlogSection blogs={blogData} />;
+          <BlogSection blogs={blogData} />
           <CTASection />
         </RootLayout>
       </main>
-    </div>
+    </>
   );
 };
 
-export default DigitalAgency;
+export default Home;

@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import allNavData from "../../../data/navData.json";
+import { navData } from "../../../data/navData.js";
 import Preloader from "@/components/preloader/Preloader";
 import CommonAnimation from "../CommonAnimation";
 import ScrollSmootherComponents from "../ScrollSmootherComponents";
@@ -11,19 +11,20 @@ import Header3 from "@/components/header/Header3";
 import Footer3 from "@/components/footer/Footer3";
 
 const HeaderContent = ({ header, navData }) => {
-  if (header == "header1") {
+  if (header === "header1") {
     return <Header1 navData={navData} />;
-  } else if (header == "header3") {
+  } else if (header === "header3") {
     return <Header3 />;
   } else {
     return <Header3 />;
   }
 };
+
 const FooterContent = ({ footer }) => {
-  if (footer == "footer3") {
+  if (footer === "footer3") {
     return <Footer3 />;
-  } else if (footer == "none") {
-    return "";
+  } else if (footer === "none") {
+    return null;
   } else {
     return <Footer3 />;
   }
@@ -36,20 +37,20 @@ export default function RootLayout({
   defaultMode = "",
 }) {
   const [mode, setMode] = useState(defaultMode);
-  const [navData, setNavData] = useState({});
 
   const cursor1 = useRef();
   const cursor2 = useRef();
+
   useEffect(() => {
-    setNavData(allNavData);
     if (typeof window !== "undefined") {
-      if (mode == "dark") {
+      if (mode === "dark") {
         document.querySelector("body").classList.add("dark");
       } else {
         document.querySelector("body").classList.remove("dark");
       }
     }
   }, [mode]);
+
   return (
     <>
       <CommonAnimation>

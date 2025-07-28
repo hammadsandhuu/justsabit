@@ -2,35 +2,28 @@ import Head from "next/head";
 import RootLayout from "@/components/common/layout/RootLayout";
 import CTASection from "@/components/cta/CtaSection";
 import BlogSection from "@/components/blog/BlogSection";
-import BlogImg1 from "../../../public/assets/imgs/blogs/7.png";
-import BlogImg2 from "../../../public/assets/imgs/blogs/5.png";
-
+import { blogs } from "@/data/blogs";
+import { generateSlug } from "@/lib/utils/generateSlug";
+import SEOHead from "@/components/common/SEOHead";
 
 const index = () => {
-    const blogData = [
-      {
-        image: BlogImg1,
-        category: "Sabit Does",
-        date: "02 May 2019",
-        title:
-          "Understanding FOB (Free on Board): A Complete Guide for Importers",
-        link: "/blog/what-is-fob",
-      },
-      {
-        image: BlogImg2,
-        category: "Our Services",
-        date: "02 May 2019",
-        title: "Door-to-Door Shipping: The Easiest Way to Import Goods",
-        link: "/blog/what-is-door-to-door-shipping",
-      },
-    ];
+  const blogData = blogs.map((blog) => ({
+    image: blog.mainImage,
+    category: blog.category,
+    date: blog.date,
+    title: blog.title,
+    link: `/blog/${blog.slug || generateSlug(blog.title)}`,
+  }));
   return (
     <>
-      <Head>
-        <title>blog itemss</title>
-        <meta name="description" content="Blog V2 Dark Description" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
+      <SEOHead
+        title="Insights & Updates | SABIT Global Shipping Blog"
+        description="Stay informed with the latest logistics trends, shipping news, and global trade insights from SABIT’s expert team. Explore our official blog."
+        url="https://www.justsabit.com/blog"
+        image="https://www.justsabit.com/assets/images/blog-banner.jpg"
+        keywords="logistics blog, global shipping news, freight insights, supply chain trends, international trade updates, SABIT blog, shipping articles, freight logistics news"
+      />
+
       <main>
         <RootLayout header="header3" footer="footer3" defaultMode="dark">
           <BlogSection blogs={blogData} />;

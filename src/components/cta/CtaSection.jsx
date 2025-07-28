@@ -10,7 +10,7 @@ const CTASection = () => {
             <div className="col-xxl-12">
               <div className="cta__content">
                 <p className="cta__sub-title">
-                  Ready to Fix Your Freight Headaches?
+                  Get a Free Quote for Your Next International Shipment
                 </p>
                 <h2 className="cta__title title-anim">
                   Talk to our advisory team. It’s free and fast <br /> no
