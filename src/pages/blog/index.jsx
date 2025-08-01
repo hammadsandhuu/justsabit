@@ -25,7 +25,7 @@ const index = () => {
       />
 
       <main>
-        <RootLayout header="header3" footer="footer3" defaultMode="dark">
+        <RootLayout header="header1" footer="footer3" defaultMode="dark">
           <BlogSection blogs={blogData} />;
           <CTASection />
         </RootLayout>

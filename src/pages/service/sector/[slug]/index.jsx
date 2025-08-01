@@ -43,7 +43,7 @@ export default function ServicePage({ service }) {
         keywords={meta?.keywords || ""}
       />
       <main>
-        <RootLayout header="header3" footer="footer3" defaultMode="dark">
+        <RootLayout header="header1" footer="footer3" defaultMode="dark">
           <ServiceHeroSection {...service} />
           <ServiceDetailsWorkflow steps={workflow_steps} />
           {/* <ServiceDetailSection {...service_detail} /> */}

@@ -28,7 +28,7 @@ const AboutSection = () => {
       <section className="about__area-3 mt-5">
         <div className="container pt-140 pb-110">
           <div className="row">
-            <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+            <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6 d-none d-lg-block">
               <div className="about__img-3">
                 <Image
                   priority

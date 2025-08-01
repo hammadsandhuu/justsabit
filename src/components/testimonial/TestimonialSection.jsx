@@ -10,13 +10,13 @@ import Image from "next/image";
 const testimonials = [
   {
     title: "Diplomatic Car Shipping (Gulf Style)",
-    text: "SABIT guided us through every detail of the diplomatic vehicle shipping process. From documentation to agent selection, everything was handled with discretion and precision. It was the smoothest experience we’ve had in recent years.",
+    text: "SABIT guided us through every detail of the diplomatic vehicle shipping process. From documentation to agent selection, everything was handled with discretion and precision. It was the smoothest experience we've had in recent years.",
     author: "Diplomatic Affairs Contact",
     role: "GCC Region",
   },
   {
     title: "Construction Project Support (KSA Vision 2030)",
-    text: "We had time-sensitive shipments heading to our site outside Riyadh. SABIT matched us with a reliable agent and stayed in the loop the entire time. We didn’t need to chase updates — they were already two steps ahead.",
+    text: "We had time-sensitive shipments heading to our site outside Riyadh. SABIT matched us with a reliable agent and stayed in the loop the entire time. We didn't need to chase updates — they were already two steps ahead.",
     author: "Project Director",
     role: "Construction Sector (KSA)",
   },
@@ -34,7 +34,7 @@ const testimonials = [
   },
   {
     title: "Pharmaceutical Compliance Freight (France)",
-    text: "The SABIT team took our compliance concerns seriously. They recommended a certified partner who understood pharma documentation inside out. We didn’t have to babysit the process — which says a lot in this industry.",
+    text: "The SABIT team took our compliance concerns seriously. They recommended a certified partner who understood pharma documentation inside out. We didn't have to babysit the process — which says a lot in this industry.",
     author: "Logistics Manager",
     role: "Healthcare Distribution (France)",
   },
@@ -52,7 +52,7 @@ const testimonials = [
   },
   {
     title: "Car Shipping for HNWI (UK > KSA)",
-    text: "The process was incredibly smooth. SABIT helped prep the paperwork, advised on shipping methods, and introduced me to a trusted shipper. My vehicle arrived early and in perfect condition. You don’t get that kind of service often.",
+    text: "The process was incredibly smooth. SABIT helped prep the paperwork, advised on shipping methods, and introduced me to a trusted shipper. My vehicle arrived early and in perfect condition. You don't get that kind of service often.",
     author: "Private Collector",
     role: "UK–Saudi Corridor",
   },
@@ -77,7 +77,13 @@ const TestimonialSection = () => {
         <span className="line-3"></span>
 
         <div className="row g-0">
-          <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
+          {/* Image column - hidden below 800px */}
+          <div
+            className="col-xxl-5 col-xl-5 col-lg-5 col-md-5 d-none d-md-block"
+            style={{
+              display: window.innerWidth > 800 ? "block" : "none !important",
+            }}
+          >
             <div className="testimonial__video">
               <Image
                 priority
@@ -89,7 +95,8 @@ const TestimonialSection = () => {
             </div>
           </div>
 
-          <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
+          {/* Testimonial slider column */}
+          <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7 col-12">
             <div className="testimonial__slider-wrapper-2">
               <div className="testimonial__slider">
                 <Swiper

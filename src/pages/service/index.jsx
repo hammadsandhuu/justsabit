@@ -16,7 +16,7 @@ const ServicesPage = () => {
         keywords="freight forwarding, international shipping, customs clearance, door to door logistics, sea freight, air freight, ex works shipping, FOB shipping, import export logistics, global cargo services"
       />
       <main>
-        <RootLayout header="header3" footer="footer3" defaultMode="dark">
+        <RootLayout header="header1" footer="footer3" defaultMode="dark">
           <Services servicesData={servicesData} />
           <BrandSection />
           <CTASection />

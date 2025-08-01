@@ -2,6 +2,9 @@
 /*  12. HEADER CSS START
 /*----------------------------------------*/
 
+// First, define your breakpoint variables (add this at the top of your SCSS file if not already defined)
+$breakpoint-1300: "(max-width: 1299px)";
+$breakpoint-1300-up: "(min-width: 1300px)";
 
 .header {
   &__area {
@@ -23,6 +26,13 @@
       width: 62px;
     }
 
+    // Hide sidebar menu below 1300px
+    @media #{$breakpoint-1300} {
+      padding: 0 15px;
+      width: 100%;
+      height: auto;
+    }
+
     @media #{$lg} {
       padding: 0 15px;
       width: 100%;
@@ -40,11 +50,11 @@
       width: 100%;
       height: auto;
     }
-    // update v0.2 
+    
     button {
-      // display: block;
-      // margin-top: -58px;
-      // padding: 20px;
+      @media #{$breakpoint-1300} {
+        margin-top: 0;
+      }
 
       @media #{$lg} {
         margin-top: 0;
@@ -86,7 +96,6 @@
       top: 0;
       z-index: 99;
     }
-
   }
 
   &__inner {
@@ -97,6 +106,13 @@
     justify-content: space-between;
     height: 100%;
     @include zi(9);
+
+    // Change layout below 1300px
+    @media #{$breakpoint-1300} {
+      padding: 10px 0;
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+    }
 
     @media #{$lg} {
       padding: 10px 0;
@@ -120,6 +136,14 @@
       display: grid;
       grid-template-columns: 150px auto 150px;
       padding: 0 30px;
+
+      // Change to flex layout below 1300px
+      @media #{$breakpoint-1300} {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+      }
 
       @media #{$lg} {
         display: flex;
@@ -147,6 +171,10 @@
       @extend .header__inner-2;
       padding: 10px 50px;
 
+      @media #{$breakpoint-1300} {
+        padding: 20px;
+      }
+
       @media #{$lg} {
         padding: 20px;
       }
@@ -162,8 +190,18 @@
   }
 
   &__nav {
+    // Show navigation above 1300px
+    @media #{$breakpoint-1300-up} {
+      display: block;
+    }
+
     &-2 {
       text-align: right;
+
+      // Hide navigation below 1300px
+      @media #{$breakpoint-1300} {
+        display: none;
+      }
 
       @media #{$lg} {
         display: none;
@@ -179,6 +217,11 @@
     }
 
     &-icon {
+      // Show mobile menu icon below 1300px
+      @media #{$breakpoint-1300} {
+        grid-column: -1;
+      }
+
       @media #{$lg} {
         grid-column: -1;
       }
@@ -265,7 +308,6 @@
           }
         }
       }
-
     }
   }
 
@@ -292,6 +334,10 @@
       visibility: visible;
       top: 70px;
 
+      @media #{$breakpoint-1300} {
+        top: 85px;
+      }
+
       @media #{$lg} {
         top: 85px;
       }
@@ -317,6 +363,11 @@
   }
 
   &__support {
+    @media #{$breakpoint-1300} {
+      grid-column: 11/11;
+      grid-row: 1;
+    }
+
     @media #{$lg} {
       grid-column: 11/11;
       grid-row: 1;
@@ -339,6 +390,10 @@
       color: var(--gray-2);
       text-align: right;
       transform: rotate(-90deg);
+
+      @media #{$breakpoint-1300} {
+        transform: rotate(0deg);
+      }
 
       @media #{$lg} {
         transform: rotate(0deg);
@@ -370,7 +425,6 @@
   }
 }
 
-
 // sticky Menu
 .sticky-2 {
   .header__nav-icon-2 .menu-icon-2::after {
@@ -379,7 +433,6 @@
     right: -20px;
     top: -30px;
   }
-
 
   .header__logo-5 img {
     filter: invert(1);
@@ -399,10 +452,18 @@
   }
 }
 
-
-// Logo
+// Logo - Updated with 1300px breakpoint
 .logo {
   &-primary {
+    // Show primary logo above 1300px
+    @media #{$breakpoint-1300-up} {
+      display: block;
+    }
+
+    // Hide primary logo below 1300px
+    @media #{$breakpoint-1300} {
+      display: none;
+    }
 
     @media #{$lg} {
       display: none;
@@ -418,7 +479,15 @@
   }
 
   &-secondary {
-    display: none;
+    // Hide secondary logo above 1300px
+    @media #{$breakpoint-1300-up} {
+      display: none;
+    }
+
+    // Show secondary logo below 1300px
+    @media #{$breakpoint-1300} {
+      display: block;
+    }
 
     @media #{$lg} {
       display: block;
@@ -433,7 +502,6 @@
     }
   }
 }
-
 
 // Dark Version
 .dark {

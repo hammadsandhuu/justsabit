@@ -18,7 +18,7 @@ const AboutPage = () => {
         image="https://www.justsabit.com/assets/images/about-banner.jpg"
       />
       <main>
-        <RootLayout defaultMode="dark">
+        <RootLayout defaultMode="dark" header="header1">
           <AboutHeroSection />
           <AboutStorySection />
           <CounterSection />

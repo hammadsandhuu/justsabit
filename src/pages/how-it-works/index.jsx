@@ -17,7 +17,7 @@ const HowItWorksPage = () => {
         image="https://www.justsabit.com/assets/images/how-it-works-banner.jpg"
       />
       <main>
-        <RootLayout defaultMode="dark">
+        <RootLayout defaultMode="dark" header="header1">
           <HowItWorkSection />
           <WorkflowSection />
           <CounterSection />

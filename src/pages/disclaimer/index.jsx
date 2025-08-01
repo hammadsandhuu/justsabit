@@ -13,7 +13,7 @@ const DisclaimerPage = () => {
         image="https://www.justsabit.com/assets/images/disclaimer-banner.jpg"
       />
       <main>
-        <RootLayout header="header3" footer="footer3" defaultMode="dark">
+        <RootLayout header="header1" footer="footer3" defaultMode="dark">
           <DisclaimerSection />
           <CTASection />
         </RootLayout>

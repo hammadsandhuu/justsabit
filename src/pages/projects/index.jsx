@@ -15,7 +15,7 @@ const ProjectPage = () => {
         image="https://www.justsabit.com/assets/images/portfolio-cover.jpg"
       />
       <main>
-        <RootLayout header="header3" footer="footer3" defaultMode="dark">
+        <RootLayout header="header1" footer="footer3" defaultMode="dark">
           <PortfolioHeroSection />
           <PortfolioSection />
           <TestimonialSection />

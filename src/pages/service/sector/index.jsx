@@ -16,7 +16,7 @@ const SectorsPage = () => {
         keywords="industry logistics, shipping sectors, e-commerce shipping, pharma logistics, industrial freight, global supply chain, tailored shipping solutions"
       />
       <main>
-        <RootLayout header="header3" footer="footer3" defaultMode="dark">
+        <RootLayout header="header1" footer="footer3" defaultMode="dark">
           <Sectors sectorsData={sectorsData} />
           <BrandSection />
           <CTASection />

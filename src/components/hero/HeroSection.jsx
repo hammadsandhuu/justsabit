@@ -12,28 +12,30 @@ const HeroSection = () => {
 
   useEffect(() => {
     if (typeof window !== "undefined") {
-      const isMobile = window.innerWidth <= 768;
       let tHero = gsap.context(() => {
         gsap.set(".experience", {
           y: 50,
           opacity: 0,
         });
 
+        // हमेशा "words" use करें, "chars" नहीं
         let split_hero__title = new SplitText(heroTitle.current, {
-          type: isMobile ? "words" : "chars",
+          type: "words", // Fixed: हमेशा words में split करें
         });
 
         let split_hero__subtitle = new SplitText(heroSubTitle.current, {
           type: "words",
         });
 
-        gsap.from(split_hero__title[isMobile ? "words" : "chars"], {
+        // Title animation - words के साथ
+        gsap.from(split_hero__title.words, {
           duration: 1,
           x: 70,
           autoAlpha: 0,
-          stagger: 0.1,
+          stagger: 0.1, // Words के बीच delay
         });
 
+        // Subtitle animation
         gsap.from(split_hero__subtitle.words, {
           duration: 1,
           x: 50,
@@ -41,6 +43,7 @@ const HeroSection = () => {
           stagger: 0.05,
         });
 
+        // Experience animation
         gsap.to(".experience", {
           y: 0,
           opacity: 1,
@@ -63,7 +66,7 @@ const HeroSection = () => {
           loop
           muted
           playsInline
-          src="assets/video/1.mp4" // 🔁 Replace with your video path
+          src="assets/video/1.mp4"
           type="video/mp4"
         ></video>
 
