@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Thumb404 from "../../../public/assets/imgs/thumb/404.png";
+import Thumb404 from "../../../public/assets/imgs/404.png";
 import Image from "next/image";
 
 const Error1 = () => {

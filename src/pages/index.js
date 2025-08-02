@@ -1,4 +1,3 @@
-import Head from "next/head";
 import RootLayout from "@/components/common/layout/RootLayout";
 import HeroSection from "@/components/hero/HeroSection";
 import AboutSection from "@/components/about/AboutSection";
@@ -30,8 +29,8 @@ const Home = () => {
       <main>
         <RootLayout header="header1" footer="footer3" defaultMode="dark">
           <HeroSection />
-          <AboutSection />
           <BrandSection />
+          <AboutSection />
           <ServiceSection serviceData={servicesData} />
           <CounterSection />
           <WorkflowSection />

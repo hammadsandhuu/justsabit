@@ -7,7 +7,6 @@ import "swiper/css/autoplay";
 import "swiper/css/navigation";
 import "swiper/css/free-mode";
 import Image from "next/image";
-
 const testimonials = [
   {
     title: "Diplomatic Car Shipping (Gulf Style)",
@@ -70,7 +69,6 @@ const testimonials = [
     role: "Online Retail Brand",
   },
 ];
-
 const TestimonialSection = () => {
   return (
     <>
@@ -79,8 +77,7 @@ const TestimonialSection = () => {
           <span className="line-3"></span>
 
           <div className="row g-0">
-            {/* Image column - hidden on small devices, visible after 1300px */}
-            <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5 d-none d-custom-block">
+            <div className="col-xxl-5 col-xl-5 col-lg-5 col-md-5">
               <div className="testimonial__video">
                 <Image
                   priority
@@ -92,8 +89,7 @@ const TestimonialSection = () => {
               </div>
             </div>
 
-            {/* Testimonials column - full width on small devices, 7/12 width on large devices */}
-            <div className="col-12 col-custom-7">
+            <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-7">
               <div className="testimonial__slider-wrapper-2">
                 <div className="testimonial__slider">
                   <Swiper
@@ -108,26 +104,62 @@ const TestimonialSection = () => {
                       prevEl: ".prev-button",
                     }}
                   >
-                    {testimonials.map((testimonial, index) => (
-                      <SwiperSlide key={index}>
-                        <div className="testimonial__slide">
-                          <div className="testimonial__inner-2">
-                            <h2 className="testimonial__title-2">
-                              {testimonial.title}
-                            </h2>
-                            <p className="testimonial__text-2">
-                              {testimonial.text}
-                            </p>
-                            <h3 className="testimonial__author">
-                              {testimonial.author}
-                            </h3>
-                            <h4 className="testimonial__role">
-                              {testimonial.role}
-                            </h4>
-                          </div>
+                    <SwiperSlide>
+                      <div className="testimonial__slide">
+                        <div className="testimonial__inner-2">
+                          <h2 className="testimonial__title-2">
+                            Amazing digital service
+                          </h2>
+                          <p className="testimonial__text-2">
+                            We were there right at the beginning just when the
+                            concept for search engine optimisation taking office
+                            and the full of internet. So wewe’ve grown to employ
+                            than 50 talented specialists with diverse
+                            experiences and broad skill sets of huge markers.
+                          </p>
+                          <h3 className="testimonial__author">Adam Syndera</h3>
+                          <h4 className="testimonial__role">CEO, Agency</h4>
                         </div>
-                      </SwiperSlide>
-                    ))}
+                      </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide className="swiper-slide ">
+                      <div className="testimonial__slide">
+                        <div className="testimonial__inner-2">
+                          <h2 className="testimonial__title-2">
+                            Amazing digital service
+                          </h2>
+                          <p className="testimonial__text-2">
+                            We were there right at the beginning just when the
+                            concept for search engine optimisation taking office
+                            and the full of internet. So wewe’ve grown to employ
+                            than 50 talented specialists with diverse
+                            experiences and broad skill sets of huge markers.
+                          </p>
+                          <h3 className="testimonial__author">Adam Syndera</h3>
+                          <h4 className="testimonial__role">CEO, Agency</h4>
+                        </div>
+                      </div>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                      <div className="testimonial__slide">
+                        <div className="testimonial__inner-2">
+                          <h2 className="testimonial__title-2">
+                            Amazing digital service
+                          </h2>
+                          <p className="testimonial__text-2">
+                            We were there right at the beginning just when the
+                            concept for search engine optimisation taking office
+                            and the full of internet. So wewe’ve grown to employ
+                            than 50 talented specialists with diverse
+                            experiences and broad skill sets of huge markers.
+                          </p>
+                          <h3 className="testimonial__author">Adam Syndera</h3>
+                          <h4 className="testimonial__role">CEO, Agency</h4>
+                        </div>
+                      </div>
+                    </SwiperSlide>
                   </Swiper>
                 </div>
 
@@ -144,29 +176,6 @@ const TestimonialSection = () => {
           </div>
         </div>
       </section>
-
-      {/* Custom CSS for responsive behavior */}
-      <style jsx>{`
-        @media (max-width: 1299px) {
-          .d-custom-block {
-            display: none !important;
-          }
-          .col-custom-7 {
-            flex: 0 0 100%;
-            max-width: 100%;
-          }
-        }
-
-        @media (min-width: 1300px) {
-          .d-custom-block {
-            display: block !important;
-          }
-          .col-custom-7 {
-            flex: 0 0 58.333333%;
-            max-width: 58.333333%;
-          }
-        }
-      `}</style>
     </>
   );
 };

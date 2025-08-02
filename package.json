@@ -1,6 +1,6 @@
 {
-  "name": "axtra-client",
-  "version": "0.1.0",
+  "name": "just-sabit",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
