@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 import NavItem from "../nav/NavItem";
 import LogoItem from "../logo/LogoItem";
 
-export default function Header1({ navData }) {
+export default function Header({ navData }) {
   const [topScroll, setTopScroll] = useState(0);
   const [searchData, setSearchData] = useState({});
   const [searchValue, setSearchValue] = useState("");

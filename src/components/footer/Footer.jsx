@@ -3,7 +3,7 @@ import ThumbFooter from "../../../public/assets/imgs/footer/3.png";
 import FooterLogoWhite from "../../../public/assets/imgs/logo/logo1.png";
 import Image from "next/image";
 
-export default function Footer3() {
+export default function Footer() {
   return (
     <>
       <footer className="footer__area">

@@ -4,42 +4,25 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        {/* Preconnect for faster DNS resolution - moved to top for priority */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-
-        {/* Font: Kanit - Optimized with font-display swap */}
+        {/* Font: Kanit */}
         <link
           href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
         />
 
-        {/* Preload critical font variants for better performance */}
-        <link
-          rel="preload"
-          href="https://fonts.gstatic.com/s/kanit/v15/nKKZ-Go6G5tXcoaSEQGodLxA.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
-
-        {/* Favicon - optimized with proper type */}
+        {/* Favicon */}
         <link
           rel="icon"
           type="image/png"
-          sizes="32x32"
           href="/assets/imgs/logo/favicon.png"
         />
 
-        {/* Additional favicon sizes for better compatibility */}
+        {/* Preload Fonts for Performance */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/assets/imgs/logo/favicon.png"
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
         />
 
         {/* SEO & Accessibility Enhancements */}
@@ -51,10 +34,6 @@ export default function Document() {
 
         {/* Language Tag (for global targeting) */}
         <meta httpEquiv="Content-Language" content="en" />
-
-        {/* Resource hints for better performance */}
-        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
-        <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
       </Head>
       <body>
         <Main />
