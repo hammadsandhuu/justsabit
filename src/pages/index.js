@@ -27,7 +27,7 @@ const Home = () => {
     <>
       <SEOHead />
       <main>
-        <RootLayout header="header1" footer="footer3" defaultMode="dark">
+        <RootLayout>
           <HeroSection />
           <BrandSection />
           <AboutSection />
