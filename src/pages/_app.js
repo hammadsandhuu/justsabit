@@ -11,7 +11,7 @@ config.autoAddCss = false;
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <NextTopLoader color="#c9f31d" height={3} />
+      <NextTopLoader color="#c9f31d" height={3} zIndex={999} />
       <Component {...pageProps} />
     </>
   );
