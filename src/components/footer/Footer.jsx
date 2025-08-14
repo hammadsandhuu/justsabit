@@ -85,7 +85,7 @@ export default function Footer() {
                         <Link href="/service">Services</Link>
                       </li>
                       <li>
-                        <Link href="/sector">Sectors</Link>
+                        <Link href="/service/sector">Sectors</Link>
                       </li>
                       <li>
                         <Link href="/how-it-works">How It Works</Link>
@@ -134,7 +134,7 @@ export default function Footer() {
                   <div className="footer__copyright">
                     <p>
                       © 2010 - 2025 | All rights reserved by
-                      <a href="https://wealcoder.com/" target="_blank">
+                      <a href="https://www.justsabit.com/" target="_blank">
                         SABIT
                       </a>
                     </p>

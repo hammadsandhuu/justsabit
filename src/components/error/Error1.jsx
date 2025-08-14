@@ -24,10 +24,7 @@ const Error1 = () => {
                   }
                 </p>
                 <div className="btn_wrapper">
-                  <Link
-                    href="/digital-marketing"
-                    className="wc-btn-primary btn-hover btn-item"
-                  >
+                  <Link href="/" className="wc-btn-primary btn-hover btn-item">
                     <span></span> Back to <br />
                     Homepage <i className="fa-solid fa-arrow-right"></i>
                   </Link>
