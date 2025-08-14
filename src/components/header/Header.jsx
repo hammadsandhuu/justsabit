@@ -2,8 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import Canvas from "../canvas/Canvas";
 import MenuBlack from "../../../public/assets/imgs/icon/menu-black.png";
 import Image from "next/image";
-// import SearchData from "../../data/searchData.json";
-import { useRouter } from "next/router";
 import NavItem from "../nav/NavItem";
 import LogoItem from "../logo/LogoItem";
 

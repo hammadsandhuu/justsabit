@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
         <Preloader />
         <CursorAnimation cursor1={cursor1} cursor2={cursor2} />
         <ScrollTop />
-        <Header navData={navData} />;
+        <Header navData={navData} />
         <div id="smooth-wrapper">
           <div id="smooth-content">
             {children}
