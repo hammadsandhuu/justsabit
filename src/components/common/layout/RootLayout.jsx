@@ -11,26 +11,6 @@ import Footer from "@/components/footer/Footer.jsx";
 export default function RootLayout({ children }) {
   const cursor1 = useRef();
   const cursor2 = useRef();
-  const [isMounted, setIsMounted] = useState(false);
-
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
-
-  // Don't render animations until component is mounted (avoid SSR issues)
-  if (!isMounted) {
-    return (
-      <>
-        <Header navData={navData} />
-        <div id="smooth-wrapper">
-          <div id="smooth-content">
-            {children}
-            <Footer />
-          </div>
-        </div>
-      </>
-    );
-  }
 
   return (
     <>
