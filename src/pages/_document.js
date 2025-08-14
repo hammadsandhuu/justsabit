@@ -38,6 +38,7 @@ export default function Document() {
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta httpEquiv="Content-Language" content="en" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
       </Head>

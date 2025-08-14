@@ -16,12 +16,13 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const service = servicesData.find((s) => s.slug === params.slug);
+  if (!service) {
+    return { notFound: true };
+  }
   return { props: { service } };
 }
 
 export default function ServicePage({ service }) {
-  if (!service) return <p>Service not found</p>;
-
   const {
     slug,
     title,
@@ -33,20 +34,24 @@ export default function ServicePage({ service }) {
     images,
   } = service;
 
+  const ogImage = images?.[0]?.src || "https://www.justsabit.com/og-image.jpg";
+  const ogImageAlt = `${title} - SABIT Logistics Service`;
+
   return (
     <>
       <SEOHead
         title={meta?.title || title}
         description={meta?.description || description}
         url={`https://www.justsabit.com/services/${slug}`}
-        image={images?.[0]?.src || ""}
+        image={ogImage}
+        imageAlt={ogImageAlt}
         keywords={meta?.keywords || ""}
       />
       <main>
         <RootLayout>
           <ServiceHeroSection {...service} />
           <ServiceDetailsWorkflow steps={workflow_steps} />
-          {/* <ServiceDetailSection {...service_detail} /> */}
+          {service_detail && <ServiceDetailSection {...service_detail} />}
           <ServiceDetailsFaq
             title={faq.title}
             faqItems={faq.items}
