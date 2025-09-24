@@ -80,9 +80,10 @@ const DesignStudioHero = () => {
         <div className="hero__inner-2">
           <div className="sec-title-wrapper">
             <h2 className="sec-title-3 bg-shape">
-              Ship You'r <br />
+              Ship Your <br />
               Car
             </h2>
+
             <h2 className="sec-title-3">
               From <br />
               US To KSA

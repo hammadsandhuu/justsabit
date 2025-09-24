@@ -53,7 +53,7 @@ const DesignStudioAbout = () => {
                     trusted, insured logistics. Our shipping philosophy is
                     shaped by years of experience in global transport.
                     Surrounded by the latest shipping technology and a network
-                    of reliable carriers, we’ve mastered the art of moving
+                    of reliable carriers, we&apos;ve mastered the art of moving
                     vehicles across oceans with precision and care.
                   </p>
                 </div>
