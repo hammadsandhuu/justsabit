@@ -18,57 +18,28 @@ const CreativeAgencyHero = () => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       let tHero = gsap.context(() => {
-        let hero7_thum_anim = heroThumAnim.current;
-        if (hero7_thum_anim) {
-          gsap.from(".image-1", {
-            x: 65,
-            yPercent: 100,
-            opacity: 0,
-            duration: 2,
-            delay: 1,
-          });
-
-          gsap.from(".image-2", {
-            delay: 1.5,
-            scale: 0,
-            duration: 1.5,
-          });
-
-          gsap.from(".image-3", {
-            x: 65,
-            yPercent: -100,
-            duration: 2,
-            opacity: 0,
-            delay: 1,
-          });
-          gsap.from(".image-4", {
-            xPercent: -100,
-            yPercent: -100,
-            duration: 2,
-            opacity: 0,
-            delay: 1,
-          });
-        }
-
         let split_creative = new SplitText(creativeSection.current, {
-          type: "chars",
+          type: "words,chars",
+          linesClass: "split-parent",
         });
         let split_solution = new SplitText(solutionSection.current, {
-          type: "chars",
+          type: "words,chars",
+          linesClass: "split-parent",
         });
         let split_herocontent = new SplitText(heroContentSection.current, {
-          type: "chars words",
+          type: "words,chars",
+          linesClass: "split-parent",
         });
 
         gsap.from(split_creative.chars, {
           duration: 1,
           x: 70,
           autoAlpha: 0,
-          stagger: 0.1,
+          stagger: 0.05,
         });
         gsap.from(
           split_solution.chars,
-          { duration: 1, x: 70, autoAlpha: 0, stagger: 0.1 },
+          { duration: 1, x: 70, autoAlpha: 0, stagger: 0.05 },
           "-=1.5"
         );
         gsap.from(
@@ -80,13 +51,24 @@ const CreativeAgencyHero = () => {
       return () => tHero.revert();
     }
   }, []);
+
   return (
     <>
+      {/* ✅ Hide images on small screens */}
+      <style jsx>{`
+        @media (max-width: 991px) {
+          .service__hero-left-2 {
+            display: none;
+          }
+        }
+      `}</style>
+
       <section className="service__hero-2">
         <div className="container">
           <div className="row">
             <div className="col-xxl-12">
               <div className="service__hero-inner-2">
+                {/* Left Images (Hidden on small screens) */}
                 <div className="service__hero-left-2">
                   <Image
                     priority
@@ -121,6 +103,8 @@ const CreativeAgencyHero = () => {
                     className="image-4"
                   />
                 </div>
+
+                {/* Right Content */}
                 <div
                   className="service__hero-right-2 hero7__thum-anim"
                   ref={heroThumAnim}

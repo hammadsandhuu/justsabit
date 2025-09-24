@@ -1015,6 +1015,23 @@
     }
   }
 
+  .split-parent {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 2px; /* thoda spacing rakho */
+  }
+  
+  .split-parent .char {
+    display: inline-block;
+    white-space: pre; /* prevent unwanted breaks */
+  }
+  
+  .split-parent .word {
+    display: inline-block;
+    white-space: nowrap; /* words intact */
+  }
+  
+
   // About Hero
   // update v0.2 
   &__about {
