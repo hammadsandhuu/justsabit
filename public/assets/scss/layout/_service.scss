@@ -1429,44 +1429,46 @@
       padding-bottom: 40px;
       padding-top: 80px;
       padding-left: 20px;
-
+  
       @media #{$lg} {
         font-size: 110px;
         padding-top: 30px;
       }
-
+  
       @media #{$md} {
         font-size: 90px;
         padding-bottom: 30px;
         padding-top: 30px;
         padding-left: 0;
       }
-
+  
       @media #{$sm} {
         font-size: 60px;
         padding-bottom: 20px;
         padding-top: 0;
         padding-left: 0;
       }
-
+  
       span {
-        display: block;
+        display: block;          // ✅ keep 2-line style
         padding-left: 170px;
-
+        white-space: nowrap;     // ✅ prevent breaking inside "USA to KSA"
+        word-break: keep-all;    // ✅ words won’t split into pieces
+  
         @media #{$lg} {
           padding-left: 120px;
         }
-
+  
         @media #{$md} {
-          padding-left: 90px;
+          padding-left: 80px;
         }
-
+  
         @media #{$sm} {
-          padding-left: 60px;
+          padding-left: 40px;
+          font-size: 45px;       // ✅ scale down instead of breaking
         }
       }
     }
-
     p {
       font-size: 18px;
       max-width: 340px;
