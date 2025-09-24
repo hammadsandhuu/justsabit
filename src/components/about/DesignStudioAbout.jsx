@@ -43,7 +43,7 @@ const DesignStudioAbout = () => {
               <div className="sec-title-wrapper">
                 <h2 className="sec-title title-anim">
                   Ship your car with ease. From the USA to Saudi Arabia,
-                  <br /> we've got you covered.
+                  <br /> we&apos;ve got you covered.
                 </h2>
               </div>
               <div className="sec-text-wrapper">
