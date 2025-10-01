@@ -54,15 +54,30 @@ const CreativeAgencyHero = () => {
 
   return (
     <>
-      {/* ✅ Hide images on small screens */}
       <style jsx>{`
+        .service__hero-2 {
+          position: relative;
+          background: url("/assets/imgs/bg/usa-car-bg-1.PNG") center/cover
+            no-repeat;
+          z-index: 1;
+          overflow: hidden;
+        }
+        .service__hero-2::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.3); /* adjust darkness */
+          z-index: -1;
+        }
         @media (max-width: 991px) {
           .service__hero-left-2 {
             display: none;
           }
         }
       `}</style>
-
       <section className="service__hero-2">
         <div className="container">
           <div className="row">
@@ -133,17 +148,48 @@ const CreativeAgencyHero = () => {
           </div>
         </div>
 
-        <Image
+        {/* <Image
           priority
           width={132}
           height={132}
           src={Home7shape6}
           alt="Shape Image"
           className="shape-1"
-        />
+        /> */}
       </section>
     </>
   );
 };
 
 export default CreativeAgencyHero;
+
+
+// <style jsx>{`
+//   .service__hero-2 {
+//     position: relative;
+//     background-image: url("/assets/imgs/bg/usa-car-bg-1.PNG");
+//     background-position: center center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     z-index: 1;
+//     overflow: hidden;
+//   }
+
+//   /* Dark overlay */
+//   .service__hero-2::before {
+//     content: "";
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     background: rgba(0, 0, 0, 0.3); /* adjust darkness */
+//     z-index: -1;
+//   }
+
+//   @media (max-width: 991px) {
+//     .service__hero-left-2 {
+//       display: none;
+//     }
+//   }
+// `}</style>;
