@@ -65,7 +65,7 @@ const DesignStudioFeature = () => {
               <div className="col-xxl-7 col-xl-7 col-lg-7 col-md-6">
                 <div className="sec-title-wrapper">
                   <h2 className="sec-title title-anim">
-                    Features are more helpful to create creative shapes as well.
+                    Why Most Car Shipments Trun Into Headaches
                   </h2>
                 </div>
               </div>
@@ -95,7 +95,7 @@ const DesignStudioFeature = () => {
                       src={FeatureIcon1}
                       alt="Feature Icon"
                     />
-                    <h3 className="feature__title">Branding</h3>
+                    <h3 className="feature__title">Customs Nightmares</h3>
                     <p>
                       Having these marketplace to your branded skilled team of
                       designers and developers who embracement perfection.
@@ -109,7 +109,7 @@ const DesignStudioFeature = () => {
                       src={FeatureIcon2}
                       alt="Feature Icon"
                     />
-                    <h3 className="feature__title">Optimum</h3>
+                    <h3 className="feature__title">No Updates</h3>
                     <p>
                       Brand identity design a the key to success whether you
                       breath rebranding an existing business or creating a
@@ -125,7 +125,7 @@ const DesignStudioFeature = () => {
                       src={FeatureIcon3}
                       alt="Feature Icon"
                     />
-                    <h3 className="feature__title">Thinking</h3>
+                    <h3 className="feature__title">Damage Risks</h3>
                     <p>
                       Creative typography plays the big role to pull off this
                       trending more effectively with the thinking use a thicker
@@ -140,7 +140,7 @@ const DesignStudioFeature = () => {
                       src={FeatureIcon4}
                       alt="Feature Icon"
                     />
-                    <h3 className="feature__title">Execution</h3>
+                    <h3 className="feature__title">Hidden Costs</h3>
                     <p>
                       Stricky with multiple shades of the colours. However, this
                       type of alone can look awesome forever an online business

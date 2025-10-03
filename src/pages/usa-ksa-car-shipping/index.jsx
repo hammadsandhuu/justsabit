@@ -5,6 +5,8 @@ import DesignStudioAbout from "@/components/about/DesignStudioAbout";
 import CreativeAgencyHero from "@/components/hero/CreativeAgencyHero";
 import CTASection from "@/components/cta/CtaSection";
 import BrandSection from "@/components/brand/BrandSection";
+import ModernAgencyHero from "@/components/hero/CreativeAgencyHero";
+import DesignStudioFeature from "@/components/feature/DesignStudioFeature";
 
 const DesignStudioDark = () => {
   return (
@@ -16,7 +18,8 @@ const DesignStudioDark = () => {
       </Head>
       <main>
         <RootLayout header="header1" defaultMode="dark">
-          <CreativeAgencyHero />
+          <ModernAgencyHero />
+          <DesignStudioFeature />
           <DesignStudioProtfolio />
           <DesignStudioAbout />
           <BrandSection />

@@ -1,10 +1,10 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { SplitText } from "@/plugins";
-import Home7sh1 from "../../../public/assets/imgs/home-7/sh-1.jpg";
-import Home7sh2 from "../../../public/assets/imgs/home-7/sh-2.jpg";
-import Home7sh3 from "../../../public/assets/imgs/home-7/sh-3.jpg";
-import Home7sh4 from "../../../public/assets/imgs/home-7/sh-4.jpg";
+import Home7sh1 from "../../../public//assets/imgs/bg/2.png";
+import Home7sh2 from "../../../public/assets/imgs/bg/3.png";
+import Home7sh3 from "../../../public/assets/imgs/bg/4.png";
+import Home7sh4 from "../../../public/assets/imgs/bg/5.png";
 import Home7scroll from "../../../public/assets/imgs/home-7/scroll.png";
 import Home7shape6 from "../../../public/assets/imgs/home-7/shape-6.png";
 import Image from "next/image.js";
@@ -57,7 +57,7 @@ const CreativeAgencyHero = () => {
       <style jsx>{`
         .service__hero-2 {
           position: relative;
-          background: url("/assets/imgs/bg/usa-car-bg-1.PNG") center/cover
+          background: url("/assets/imgs/bg/usa-car-bg-4.PNG") center/cover
             no-repeat;
           z-index: 1;
           overflow: hidden;
